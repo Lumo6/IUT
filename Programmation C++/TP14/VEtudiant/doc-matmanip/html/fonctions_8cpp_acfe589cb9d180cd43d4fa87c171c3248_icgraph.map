@@ -1,0 +1,9 @@
+<map id="AjouterMatrice" name="AjouterMatrice">
+<area shape="rect" id="Node000001" title="Ajoute deux matrices dans une troisi├¿me." alt="" coords="418,5,524,32"/>
+<area shape="rect" id="Node000002" href="$menus_8cpp.html#af84faf18163fe94dea44d12cffb0f448" title="Gestion du menu op├®rations." alt="" coords="254,5,370,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="403,21,371,21,371,16,403,16"/>
+<area shape="rect" id="Node000003" href="$menus_8cpp.html#a6d65f4bf4b49548c10ff609a37116201" title="Gestion du menu principal." alt="" coords="103,5,206,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,21,207,21,207,16,238,16"/>
+<area shape="rect" id="Node000004" href="$_mat_manip_8cpp.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="Main entry&#45;point for this application." alt="" coords="5,5,55,32"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

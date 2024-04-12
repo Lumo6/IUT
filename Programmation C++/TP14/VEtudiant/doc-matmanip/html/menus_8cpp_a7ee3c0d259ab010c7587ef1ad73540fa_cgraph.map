@@ -1,0 +1,11 @@
+<map id="MenuVerifications" name="MenuVerifications">
+<area shape="rect" id="Node000001" title="Gestion du menu v├®rifications." alt="" coords="5,81,130,108"/>
+<area shape="rect" id="Node000002" href="$fonctions_8cpp.html#a11b7f4927ce6cf6de2b8040fdbf7f959" title="V├®rifie l&#39;in├®galit├® entre deux matrices." alt="" coords="178,5,299,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,78,177,42,189,36,192,41,179,46,99,83"/>
+<area shape="rect" id="Node000003" href="$fonctions_8cpp.html#a996884108eb355245200ba56610ec476" title="V├®rifie l&#39;├®galit├® entre deux matrices." alt="" coords="186,56,291,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,83,170,77,171,82,130,88"/>
+<area shape="rect" id="Node000004" href="$menus_8cpp.html#a50933ad80c68659a29f7da143cd9e527" title="D├®claration des fonctions de gestion des menus." alt="" coords="212,107,265,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,101,197,111,196,117,130,107"/>
+<area shape="rect" id="Node000005" href="$utils_8cpp.html#ad53dbe8d9be1054eb65f1668cfb83e93" title="D├®claration des fonctions utilitaires." alt="" coords="194,157,283,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="99,106,179,143,192,149,189,153,177,148,97,111"/>
+</map>

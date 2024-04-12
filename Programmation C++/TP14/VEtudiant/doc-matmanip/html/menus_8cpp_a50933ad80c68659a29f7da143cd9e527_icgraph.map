@@ -1,0 +1,13 @@
+<map id="menu" name="menu">
+<area shape="rect" id="Node000001" title="D├®claration des fonctions de gestion des menus." alt="" coords="426,56,480,83"/>
+<area shape="rect" id="Node000002" href="$menus_8cpp.html#af84faf18163fe94dea44d12cffb0f448" title="Gestion du menu op├®rations." alt="" coords="258,5,374,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="411,57,354,35,355,30,412,52"/>
+<area shape="rect" id="Node000003" href="$menus_8cpp.html#a6d65f4bf4b49548c10ff609a37116201" title="Gestion du menu principal." alt="" coords="103,56,206,83"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="411,72,207,72,207,67,411,67"/>
+<area shape="rect" id="Node000005" href="$menus_8cpp.html#a7ee3c0d259ab010c7587ef1ad73540fa" title="Gestion du menu v├®rifications." alt="" coords="254,107,378,133"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="412,87,355,109,354,104,411,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="258,40,200,58,199,53,256,35"/>
+<area shape="rect" id="Node000004" href="$_mat_manip_8cpp.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="Main entry&#45;point for this application." alt="" coords="5,56,55,83"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,72,55,72,55,67,87,67"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="256,104,199,86,200,81,258,99"/>
+</map>

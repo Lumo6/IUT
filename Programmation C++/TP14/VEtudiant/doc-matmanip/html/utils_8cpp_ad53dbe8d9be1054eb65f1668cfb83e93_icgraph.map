@@ -1,0 +1,16 @@
+<map id="SaisirEntier" name="SaisirEntier">
+<area shape="rect" id="Node000001" title="D├®claration des fonctions utilitaires." alt="" coords="426,81,515,108"/>
+<area shape="rect" id="Node000002" href="$fonctions_8cpp.html#a69e1beecb82121ab6da7c5f49db9f660" title="D├®claration des fonctions principales du programme." alt="" coords="269,5,364,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="427,76,344,35,346,30,429,72"/>
+<area shape="rect" id="Node000003" href="$menus_8cpp.html#a6d65f4bf4b49548c10ff609a37116201" title="Gestion du menu principal." alt="" coords="103,81,206,108"/>
+<area shape="poly" id="edge6_Node000001_Node000003" title=" " alt="" coords="411,97,206,97,206,92,411,92"/>
+<area shape="rect" id="Node000005" href="$menus_8cpp.html#af84faf18163fe94dea44d12cffb0f448" title="Gestion du menu op├®rations." alt="" coords="258,107,374,133"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="411,107,375,113,374,108,410,102"/>
+<area shape="rect" id="Node000006" href="$menus_8cpp.html#a7ee3c0d259ab010c7587ef1ad73540fa" title="Gestion du menu v├®rifications." alt="" coords="254,157,378,184"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="434,118,380,148,354,159,351,154,377,143,432,114"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="273,42,186,83,184,78,271,37"/>
+<area shape="rect" id="Node000004" href="$_mat_manip_8cpp.html#a6288eba0f8e8ad3ab1544ad731eb7667" title="Main entry&#45;point for this application." alt="" coords="5,81,55,108"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="87,97,55,97,55,92,87,92"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="242,111,206,105,207,100,243,106"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="265,153,253,148,180,111,182,106,255,143,267,148"/>
+</map>

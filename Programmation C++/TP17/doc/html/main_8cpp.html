@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TP 17 - La Chasse aux papillons: Référence du fichier main.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">TP 17 - La Chasse aux papillons<span id="projectnumber">&#160;1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Fonctions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">Référence du fichier main.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Programme principal.  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &lt;Windows.h&gt;</code><br />
+<code>#include &lt;tchar.h&gt;</code><br />
+<code>#include &lt;random&gt;</code><br />
+<code>#include &lt;chrono&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
+<code>#include &quot;<a class="el" href="_butterfly_8h.html">Butterfly.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="vecteur2_d_8h.html">vecteur2D.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_swarm_8h.html">Swarm.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="_net_8h.html">Net.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="inc_lib_graph2_8h.html">incLibGraph2.h</a>&quot;</code><br />
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Graphe des dépendances par inclusion de main.cpp:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#amain_8cpp" alt=""/></div>
+<map name="amain_8cpp" id="amain_8cpp">
+<area shape="rect" title="Programme principal." alt="" coords="382,5,456,32"/>
+<area shape="rect" title=" " alt="" coords="5,80,91,107"/>
+<area shape="poly" title=" " alt="" coords="382,29,106,82,105,77,381,24"/>
+<area shape="rect" title=" " alt="" coords="115,80,176,107"/>
+<area shape="poly" title=" " alt="" coords="382,32,192,82,190,77,380,27"/>
+<area shape="rect" title=" " alt="" coords="200,80,264,107"/>
+<area shape="poly" title=" " alt="" coords="387,35,280,76,278,71,385,30"/>
+<area shape="rect" title=" " alt="" coords="447,229,508,256"/>
+<area shape="poly" title=" " alt="" coords="406,34,387,55,372,81,370,93,372,106,381,145,401,180,421,201,444,218,440,223,417,205,397,183,376,147,367,107,364,93,367,79,383,52,402,31"/>
+<area shape="rect" title=" " alt="" coords="411,155,480,181"/>
+<area shape="poly" title=" " alt="" coords="408,34,383,67,377,86,380,106,394,126,413,144,409,148,390,130,375,108,372,86,378,64,403,31"/>
+<area shape="rect" title=" " alt="" coords="390,80,447,107"/>
+<area shape="poly" title=" " alt="" coords="421,33,421,64,416,64,416,33"/>
+<area shape="rect" href="_butterfly_8h.html" title="Déclaration de la classe CButterfly." alt="" coords="567,155,647,181"/>
+<area shape="poly" title=" " alt="" coords="457,22,558,43,604,58,622,68,634,78,641,94,640,111,627,143,622,141,635,110,636,95,630,82,619,72,602,63,556,48,456,28"/>
+<area shape="rect" href="vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="623,229,713,256"/>
+<area shape="poly" title=" " alt="" coords="456,22,568,41,621,57,641,67,655,78,673,111,681,148,681,184,677,214,672,214,675,183,675,148,668,113,651,82,639,72,619,62,567,46,456,27"/>
+<area shape="rect" href="_swarm_8h.html" title="Déclaration de la classe CSwarm." alt="" coords="548,80,620,107"/>
+<area shape="poly" title=" " alt="" coords="449,30,542,71,540,76,446,35"/>
+<area shape="rect" href="_net_8h.html" title="Déclaration de la classe CNet." alt="" coords="471,80,524,107"/>
+<area shape="poly" title=" " alt="" coords="434,31,474,67,471,71,431,35"/>
+<area shape="rect" href="inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de LibGraph2 en niveau 4." alt="" coords="746,80,854,107"/>
+<area shape="poly" title=" " alt="" coords="457,24,731,76,730,82,456,30"/>
+<area shape="poly" title=" " alt="" coords="585,184,515,224,512,219,583,180"/>
+<area shape="poly" title=" " alt="" coords="619,180,650,216,646,219,615,184"/>
+<area shape="rect" title=" " alt="" coords="599,304,652,331"/>
+<area shape="poly" title=" " alt="" coords="663,258,643,292,638,289,658,255"/>
+<area shape="rect" title=" " alt="" coords="676,304,748,331"/>
+<area shape="poly" title=" " alt="" coords="678,255,699,289,694,292,673,258"/>
+<area shape="poly" title=" " alt="" coords="561,110,484,149,482,145,559,105"/>
+<area shape="poly" title=" " alt="" coords="590,106,601,139,596,141,585,108"/>
+<area shape="rect" title=" " alt="" coords="503,155,542,181"/>
+<area shape="poly" title=" " alt="" coords="575,109,545,145,541,141,571,105"/>
+<area shape="poly" title=" " alt="" coords="490,109,465,144,461,141,486,106"/>
+<area shape="poly" title=" " alt="" coords="518,105,577,144,574,148,515,109"/>
+<area shape="poly" title=" " alt="" coords="504,106,516,139,511,141,499,108"/>
+<area shape="rect" title=" " alt="" coords="754,155,846,181"/>
+<area shape="poly" title=" " alt="" coords="803,107,803,139,797,139,797,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a9f918755b601cf4bffca775992e6fb90" id="r_a9f918755b601cf4bffca775992e6fb90"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a9f918755b601cf4bffca775992e6fb90">NOMINMAX</a></td></tr>
+<tr class="separator:a9f918755b601cf4bffca775992e6fb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:a19067f68bf31200d311e66fa482bb635" id="r_a19067f68bf31200d311e66fa482bb635"><td class="memItemLeft" align="right" valign="top">CPoint&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a19067f68bf31200d311e66fa482bb635">toLibGraph2Point</a> (const <a class="el" href="vecteur2_d_8h.html#af0014584965d5e5bd9fec648e87b8bc6">CPoint2D</a> &amp;pt2D)</td></tr>
+<tr class="memdesc:a19067f68bf31200d311e66fa482bb635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction utilitaire pour convertir un CPoint2D en LibGraph2::CPoint.  <br /></td></tr>
+<tr class="separator:a19067f68bf31200d311e66fa482bb635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9608de0e5b793ce936375584c8c08b83" id="r_a9608de0e5b793ce936375584c8c08b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="vecteur2_d_8h.html#af0014584965d5e5bd9fec648e87b8bc6">CPoint2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a9608de0e5b793ce936375584c8c08b83">toPoint2D</a> (const CPoint &amp;pt)</td></tr>
+<tr class="memdesc:a9608de0e5b793ce936375584c8c08b83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fonction utilitaire pour convertir un LibGraph2::CPoint en CPoint2D.  <br /></td></tr>
+<tr class="separator:a9608de0e5b793ce936375584c8c08b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf5e7f94cc186f55d373ad6a6d311bcb" id="r_aaf5e7f94cc186f55d373ad6a6d311bcb"><td class="memItemLeft" align="right" valign="top">int APIENTRY&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#aaf5e7f94cc186f55d373ad6a6d311bcb">_tWinMain</a> (HINSTANCE hInstance, HINSTANCE hPrevInstance, LPTSTR lpCmdLine, int nCmdShow)</td></tr>
+<tr class="memdesc:aaf5e7f94cc186f55d373ad6a6d311bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Point d'entrée principal du programme.  <br /></td></tr>
+<tr class="separator:aaf5e7f94cc186f55d373ad6a6d311bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a43016d873124d39034edb8cd164794db" id="r_a43016d873124d39034edb8cd164794db"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a43016d873124d39034edb8cd164794db">pi</a> = 3.14159265359</td></tr>
+<tr class="memdesc:a43016d873124d39034edb8cd164794db"><td class="mdescLeft">&#160;</td><td class="mdescRight">C'est PI !  <br /></td></tr>
+<tr class="separator:a43016d873124d39034edb8cd164794db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Programme principal. </p>
+<dl class="section author"><dt>Auteur</dt><dd>Benjamin ALBOUY-KISSI </dd></dl>
+</div><h2 class="groupheader">Documentation des macros</h2>
+<a id="a9f918755b601cf4bffca775992e6fb90" name="a9f918755b601cf4bffca775992e6fb90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f918755b601cf4bffca775992e6fb90">&#9670;&#160;</a></span>NOMINMAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define NOMINMAX</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des fonctions</h2>
+<a id="aaf5e7f94cc186f55d373ad6a6d311bcb" name="aaf5e7f94cc186f55d373ad6a6d311bcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5e7f94cc186f55d373ad6a6d311bcb">&#9670;&#160;</a></span>_tWinMain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int APIENTRY _tWinMain </td>
+          <td>(</td>
+          <td class="paramtype">HINSTANCE&#160;</td>
+          <td class="paramname"><em>hInstance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HINSTANCE&#160;</td>
+          <td class="paramname"><em>hPrevInstance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LPTSTR&#160;</td>
+          <td class="paramname"><em>lpCmdLine</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nCmdShow</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Point d'entrée principal du programme. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">hInstance</td><td>ignoré </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">hPrevInstance</td><td>ignoré </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">lpCmdLine</td><td>ignoré </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nCmdShow</td><td>ignoré </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>0 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">A faire:</a></b></dt><dd>Réaliser ici une boucle qui pour chaque papillon de l'essaim le fait se déplacer en ayant peur du filet (dont la position est en <code>ptMousePos</code> ) et l'affiche en utilisant la fonction drawButterfly </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">A faire:</a></b></dt><dd>Modifier la variable cnt pour qu'elle soit égale au nombre de papillons vivants présents dans le filet </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">A faire:</a></b></dt><dd>Ajouter ici un nouveau papillon à l'essaim </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">A faire:</a></b></dt><dd>Créer ici une boucle sur tous les papillons de l'essaim pour voir s'il sont à moins de 25 pixels du filet. Si c'est le cas alors les retirer de l'essaim et les ajouter au filet. </dd></dl>
+
+</div>
+</div>
+<a id="a19067f68bf31200d311e66fa482bb635" name="a19067f68bf31200d311e66fa482bb635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19067f68bf31200d311e66fa482bb635">&#9670;&#160;</a></span>toLibGraph2Point()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">CPoint toLibGraph2Point </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="vecteur2_d_8h.html#af0014584965d5e5bd9fec648e87b8bc6">CPoint2D</a> &amp;&#160;</td>
+          <td class="paramname"><em>pt2D</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction utilitaire pour convertir un CPoint2D en LibGraph2::CPoint. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt2D</td><td>Point à convertir </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Point convertit </dd></dl>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="main_8cpp.html#a9608de0e5b793ce936375584c8c08b83" title="Fonction utilitaire pour convertir un LibGraph2::CPoint en CPoint2D.">toPoint2D</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9608de0e5b793ce936375584c8c08b83" name="a9608de0e5b793ce936375584c8c08b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9608de0e5b793ce936375584c8c08b83">&#9670;&#160;</a></span>toPoint2D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="vecteur2_d_8h.html#af0014584965d5e5bd9fec648e87b8bc6">CPoint2D</a> toPoint2D </td>
+          <td>(</td>
+          <td class="paramtype">const CPoint &amp;&#160;</td>
+          <td class="paramname"><em>pt</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Fonction utilitaire pour convertir un LibGraph2::CPoint en CPoint2D. </p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pt</td><td>Point à convertir </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Point convertit </dd></dl>
+<dl class="section see"><dt>Voir également</dt><dd><a class="el" href="main_8cpp.html#a19067f68bf31200d311e66fa482bb635" title="Fonction utilitaire pour convertir un CPoint2D en LibGraph2::CPoint.">toLibGraph2Point</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Documentation des variables</h2>
+<a id="a43016d873124d39034edb8cd164794db" name="a43016d873124d39034edb8cd164794db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43016d873124d39034edb8cd164794db">&#9670;&#160;</a></span>pi</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const double pi = 3.14159265359</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>C'est PI ! </p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_1774774aed367dba04da4bf85a05ce56.html">TP 17</a></li><li class="navelem"><a class="el" href="main_8cpp.html">main.cpp</a></li>
+    <li class="footer">Généré le Lundi 2 Octobre 2023 15:47:02 pour TP 17 - La Chasse aux papillons par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

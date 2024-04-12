@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TP18 - Héritage: TP 18 - Héritage - Tracé de formes géométriques</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">TP18 - Héritage<span id="projectnumber">&#160;2022</span>
+   </div>
+   <div id="projectbrief">Tracé de formes géométriques</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">TP 18 - Héritage - Tracé de formes géométriques </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Table des matières</h3>
+<ul><li class="level1"><a href="#sec1">Exercice 1 Présentation</a><ul><li class="level2"><a href="#sec1_1">1.1 Objectifs du programme</a></li>
+<li class="level2"><a href="#sec1_2">1.2 Présentation de la structure du programme</a><ul><li class="level3"><a href="#sec1_2_1">1.2.1 La classe CTP (fichiers TP.h et TP.cpp)</a></li>
+<li class="level3"><a href="#sec1_2_2">1.2.2 La classe CForme (fichiers Forme.h et Forme.cpp)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#sec2">Exercice 2 Travail à réaliser</a><ul><li class="level2"><a href="#sec2_1">2.1 La classe CRect</a></li>
+<li class="level2"><a href="#sec2_2">2.2 La classe CEllipse</a></li>
+<li class="level2"><a href="#sec2_3">2.3 La classe CArc</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="sec1"></a>
+Exercice 1 Présentation</h1>
+<h2><a class="anchor" id="sec1_1"></a>
+1.1 Objectifs du programme</h2>
+<p>Il s’agit de réaliser un programme simpliste de dessin par ordinateur. Le programme est capable d’afficher des rectangles et des ellipses. Ces formes peuvent être affichées avec différents styles, couleurs et épaisseurs de trait. Elles sont toutes les deux gérées par deux points appelés origine et arrivée. Le point d’origine est le premier point cliqué par l’utilisateur pour créer la forme, le point d’arrivée est la position à laquelle l’utilisateur a relâché la souris. La forme est alors tracée dans la boîte englobante formée par ces deux points.</p>
+<p>Pour choisir la forme à créer, l’utilisateur peut appuyer sur la touche ‘R’ pour un rectangle, sur la touche ‘E’ pour une ellipse ou sur la touche ‘A’ pour un arc elliptique. La touche ‘T’ permet de choisir les attributs de tracé pour la prochaine forme créée.</p>
+<h2><a class="anchor" id="sec1_2"></a>
+1.2 Présentation de la structure du programme</h2>
+<h3><a class="anchor" id="sec1_2_1"></a>
+1.2.1 La classe CTP (fichiers TP.h et TP.cpp)</h3>
+<p>Le programme s’articule autour d’un objet de type <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> dont les méthodes sont appelées par le programme principal en fonction des actions de l’utilisateur.</p>
+<h3><a class="anchor" id="sec1_2_2"></a>
+1.2.2 La classe CForme (fichiers Forme.h et Forme.cpp)</h3>
+<p>La classe <a class="el" href="class_c_forme.html" title="Une forme.">CForme</a> gère toutes les propriétés communes à toutes les formes. Les attributs de tracés sont : </p><ul>
+<li><a class="el" href="class_c_forme.html#aedc1f4ba5cc5bf4d93b69a2444cb94e6" title="Sa couleur.">CForme::m_colColor</a> : La couleur du tracé </li>
+<li><a class="el" href="class_c_forme.html#a45a5a5ce71517fa459ab730eb9778e8f" title="Son epaisseur.">CForme::m_fThickness</a> : l’épaisseur du tracé </li>
+<li><a class="el" href="class_c_forme.html#acb8f462fe0a84058c124de945d66ac92" title="Son style de tracé.">CForme::m_eStyle</a> : le style du tracé </li>
+<li><a class="el" href="class_c_forme.html#a82b44eab52793b3d179c14aa5ab92bcc" title="Son point d&#39;origine.">CForme::m_ptP1</a> : le point d’origine de la forme </li>
+<li><a class="el" href="class_c_forme.html#a146a611ab21e7945e473876e43edfb6e" title="Son point d&#39;arrivée.">CForme::m_ptP2</a> : le point d’arrivée de la forme </li>
+<li><a class="el" href="class_c_forme.html#a9f769f77feea68e6edced5ebc7402d6a" title="Sa boîte englobante.">CForme::m_rectBounds</a> : la boite englobante de la forme, automatiquement calculée lors de la modification de <a class="el" href="class_c_forme.html#a82b44eab52793b3d179c14aa5ab92bcc" title="Son point d&#39;origine.">CForme::m_ptP1</a> et <a class="el" href="class_c_forme.html#a146a611ab21e7945e473876e43edfb6e" title="Son point d&#39;arrivée.">CForme::m_ptP2</a> par les fonctions <a class="el" href="class_c_forme.html#a4ecd3f87e95fbeb405a023052f9163c2" title="Définit la position du coin haut-gauche de cet objet.">CForme::SetP1</a> et <a class="el" href="class_c_forme.html#aef2f14f993d9099cd3199e2ddcb71777" title="Définit la position du coin bas-droit de cet objet.">CForme::SetP2</a>.</li>
+</ul>
+<p>Enfin, la fonction membre <a class="el" href="class_c_forme.html#a142d6fbae44258936b506b9cd054d127" title="Prépare l&#39;affichage de cette forme.">CForme::Afficher()</a> définit les attributs du tracé avant affichage, de façon que la forme spécifique (rectangle ou ellipse) n’ait pas à le faire.</p>
+<h1><a class="anchor" id="sec2"></a>
+Exercice 2 Travail à réaliser</h1>
+<h2><a class="anchor" id="sec2_1"></a>
+2.1 La classe CRect</h2>
+<p>La classe CRect modélise un rectangle. Le rectangle doit être affiché en suivant la boîte englobante de la forme définie par un point d’origine et un point d’arrivée. </p><ul>
+<li>
+Vous devez implémenter la classe CRect dans les fichiers <a class="el" href="_rectangle_8h.html" title="Declares the rectangle class.">Rectangle.h</a> et <a class="el" href="_rectangle_8cpp.html" title="Implements the rectangle class.">Rectangle.cpp</a>. <ul>
+<li>
+Quel type de relation y a-t-il entre un rectangle et une forme ? Est-ce une relation de composition, d’agrégation ou d’héritage ? </li>
+<li>
+Quel(s) attribut(s) supplémentaire(s) à ceux de la classe <a class="el" href="class_c_forme.html" title="Une forme.">CForme</a> faut-il ajouter à la classe CRect ? </li>
+<li>
+Quel comportement de la forme faut-il modifier ou ajouter à la classe CRect ? </li>
+</ul>
+</li>
+<li>
+Vous devez ensuite ajouter à la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> une liste de CRect et modifier les comportements de la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> de façon à rendre opérationnel la création et l’affichage des rectangles. <ul>
+<li>
+Référez-vous aux commentaires <code>"\todo"</code> des fichiers <a class="el" href="_t_p_8h.html" title="Déclaration de la classe CTP.">TP.h</a> et <a class="el" href="_t_p_8cpp.html" title="Définition de la classe CTP.">TP.cpp</a>. </li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="sec2_2"></a>
+2.2 La classe CEllipse</h2>
+<p>La classe CEllipse modélise une ellipse. L’ellipse doit être affichée en suivant la boîte englobante de la forme définie par un point d’origine et un point d’arrivée. </p><ul>
+<li>
+Implémentez la classe CEllipse sur le même modèle que la classe CRect  </li>
+<li>
+Vous devez ensuite ajouter à la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> une liste de CEllipse sur le même principe que pour les rectangles et modifier les comportements de la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> de façon à rendre opérationnel la création et l’affichage des ellipses.  </li>
+<li>
+Référez-vous aux commentaires <code>"\todo"</code> des fichiers <a class="el" href="_t_p_8h.html" title="Déclaration de la classe CTP.">TP.h</a> et <a class="el" href="_t_p_8cpp.html" title="Définition de la classe CTP.">TP.cpp</a>.  </li>
+</ul>
+<h2><a class="anchor" id="sec2_3"></a>
+2.3 La classe CArc</h2>
+<p>La classe CArc modélise un arc elliptique. L’arc doit être affiché en suivant la boîte englobante de son ellipse. L’arc est défini sur son ellipse génératrice par un angle de départ et un angle de balayage. </p><ul>
+<li>
+Implémentez la classe CArc sur le même modèle que la classe CRect <ul>
+<li>
+Quelles données membres faut-il rajouter ? </li>
+<li>
+Vous devez ensuite ajouter à la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> une liste de CArc sur le même principe que pour les rectangles et modifier les comportements de la classe <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> de façon à rendre opérationnel la création et l’affichage des arcs. </li>
+<li>
+Référez-vous aux commentaires <code>"\todo"</code> des fichiers <a class="el" href="_t_p_8h.html" title="Déclaration de la classe CTP.">TP.h</a> et <a class="el" href="_t_p_8cpp.html" title="Définition de la classe CTP.">TP.cpp</a>. </li>
+</ul>
+</li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Lundi 2 Octobre 2023 16:33:55 pour TP18 - Héritage par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

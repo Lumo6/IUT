@@ -1,0 +1,36 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title="Main entry&#45;point for this application." alt="" coords="5,132,55,159"/>
+<area shape="rect" id="Node000002" href="$menus_8cpp.html#a6d65f4bf4b49548c10ff609a37116201" title="Gestion du menu principal." alt="" coords="103,132,206,159"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,143,87,143,87,148,55,148"/>
+<area shape="rect" id="Node000003" href="$fonctions_8cpp.html#ae983c1b616a93660fa57b4caf1b75f44" title="Affiche une matrice." alt="" coords="263,5,370,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="165,130,202,91,252,49,270,37,273,42,256,53,206,95,169,134"/>
+<area shape="rect" id="Node000004" href="$fonctions_8cpp.html#a69e1beecb82121ab6da7c5f49db9f660" title="D├®claration des fonctions principales du programme." alt="" coords="269,107,364,133"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="206,135,253,127,254,132,207,140"/>
+<area shape="rect" id="Node000005" href="$utils_8cpp.html#ad53dbe8d9be1054eb65f1668cfb83e93" title="D├®claration des fonctions utilitaires." alt="" coords="447,56,536,83"/>
+<area shape="poly" id="edge19_Node000002_Node000005" title=" " alt="" coords="176,129,211,109,253,92,299,81,347,73,432,67,432,72,347,79,300,86,255,97,213,114,178,134"/>
+<area shape="rect" id="Node000006" href="$menus_8cpp.html#a50933ad80c68659a29f7da143cd9e527" title="D├®claration des fonctions de gestion des menus." alt="" coords="465,208,518,235"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="178,157,213,177,255,193,306,206,359,213,450,219,449,224,359,219,305,211,253,199,211,181,176,162"/>
+<area shape="rect" id="Node000007" href="$menus_8cpp.html#af84faf18163fe94dea44d12cffb0f448" title="Gestion du menu op├®rations." alt="" coords="258,284,374,311"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="172,157,256,238,291,272,288,275,252,242,168,161"/>
+<area shape="rect" id="Node000013" href="$menus_8cpp.html#a7ee3c0d259ab010c7587ef1ad73540fa" title="Gestion du menu v├®rifications." alt="" coords="254,157,378,184"/>
+<area shape="poly" id="edge14_Node000002_Node000013" title=" " alt="" coords="207,151,239,156,238,161,206,156"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="363,104,432,84,434,89,365,109"/>
+<area shape="poly" id="edge11_Node000007_Node000005" title=" " alt="" coords="324,282,376,195,388,166,395,141,405,117,424,93,432,86,436,91,428,97,409,120,400,142,393,167,381,197,328,285"/>
+<area shape="poly" id="edge9_Node000007_Node000006" title=" " alt="" coords="345,281,425,244,450,234,452,239,427,249,347,286"/>
+<area shape="rect" id="Node000008" href="$fonctions_8cpp.html#acfe589cb9d180cd43d4fa87c171c3248" title="Ajoute deux matrices dans une troisi├¿me." alt="" coords="439,360,544,387"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="347,309,427,346,441,351,439,356,425,350,345,314"/>
+<area shape="rect" id="Node000009" href="$fonctions_8cpp.html#aa1a2683f3a5933c21aed95d1f04a5543" title="Ajoute deux matrices dans la premi├¿re de l&#39;op├®ration." alt="" coords="435,411,548,437"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="331,309,372,351,428,396,436,401,433,406,425,401,368,355,327,313"/>
+<area shape="rect" id="Node000010" href="$fonctions_8cpp.html#abb0186e9fad30e58dc70f8d166d1a9cb" title="Multiplie deux matrices dans une troisi├¿me." alt="" coords="433,461,550,488"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="326,310,364,375,393,413,428,447,434,452,431,456,425,451,389,417,359,378,322,312"/>
+<area shape="rect" id="Node000011" href="$fonctions_8cpp.html#a74ca6be257a96599713b7ea33e770aeb" title="Soustrait deux matrices dans une troisi├¿me." alt="" coords="430,259,553,285"/>
+<area shape="poly" id="edge12_Node000007_Node000011" title=" " alt="" coords="375,286,414,280,415,286,375,292"/>
+<area shape="rect" id="Node000012" href="$fonctions_8cpp.html#a7aa4eea3a745fe1f3222ddcba56ce272" title="Soustrait deux matrices dans la premi├¿re de l&#39;op├®ration." alt="" coords="426,309,557,336"/>
+<area shape="poly" id="edge13_Node000007_Node000012" title=" " alt="" coords="375,303,411,308,410,314,375,308"/>
+<area shape="poly" id="edge18_Node000013_Node000005" title=" " alt="" coords="356,155,377,143,391,131,400,118,410,106,425,93,433,88,435,92,428,97,414,109,404,122,395,134,380,148,359,159"/>
+<area shape="poly" id="edge17_Node000013_Node000006" title=" " alt="" coords="366,182,451,207,449,212,364,187"/>
+<area shape="rect" id="Node000014" href="$fonctions_8cpp.html#a11b7f4927ce6cf6de2b8040fdbf7f959" title="V├®rifie l&#39;in├®galit├® entre deux matrices." alt="" coords="431,107,552,133"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="364,154,427,136,429,141,366,159"/>
+<area shape="rect" id="Node000015" href="$fonctions_8cpp.html#a996884108eb355245200ba56610ec476" title="V├®rifie l&#39;├®galit├® entre deux matrices." alt="" coords="439,157,544,184"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="379,168,424,168,424,173,379,173"/>
+</map>

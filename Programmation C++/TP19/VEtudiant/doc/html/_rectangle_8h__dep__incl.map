@@ -1,0 +1,11 @@
+<map id="Rectangle.h" name="Rectangle.h">
+<area shape="rect" id="Node000001" title="Declares the rectangle class." alt="" coords="62,5,152,32"/>
+<area shape="rect" id="Node000002" href="$_rectangle_8cpp.html" title="Implements the rectangle class." alt="" coords="5,80,110,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,47,68,81,64,78,87,44"/>
+<area shape="rect" id="Node000003" href="$_t_p_8h.html" title="Déclaration de la classe CTP." alt="" coords="133,80,182,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,43,151,78,147,81,122,46"/>
+<area shape="rect" id="Node000004" href="$_t_p_8cpp.html" title="Définition de la classe CTP." alt="" coords="81,155,143,181"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,122,122,156,118,153,139,119"/>
+<area shape="rect" id="Node000005" href="$prog_8cpp.html" title="Programme principal." alt="" coords="167,155,239,181"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="176,119,197,153,193,156,171,122"/>
+</map>

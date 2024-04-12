@@ -1,0 +1,28 @@
+<map id="Ellipse.cpp" name="Ellipse.cpp">
+<area shape="rect" id="Node000001" title="Implements the ellipse class." alt="" coords="661,5,746,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="345,80,416,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="661,32,432,83,431,78,660,27"/>
+<area shape="rect" id="Node000010" href="$_ellipse_8h.html" title="Declares the ellipse class." alt="" coords="668,80,739,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="706,33,706,64,701,64,701,33"/>
+<area shape="rect" id="Node000012" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="688,229,796,256"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="720,31,739,52,754,79,762,115,762,152,752,215,747,214,757,152,756,116,749,81,734,55,716,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,105,102,157,101,152,344,100"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,155,189,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,108,205,152,203,147,344,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="213,155,276,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="358,110,283,149,281,145,356,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="300,155,368,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="375,109,352,143,348,140,370,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="392,155,463,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="391,106,413,140,409,143,387,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="486,155,566,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="407,105,488,145,486,150,405,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="590,155,651,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="417,103,576,150,574,155,416,108"/>
+<area shape="rect" id="Node000011" href="$_forme_8h.html" title="Declares the forme class." alt="" coords="675,155,740,181"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="707,107,708,139,703,139,701,107"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="716,181,732,214,727,216,711,183"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="696,304,788,331"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="745,257,745,288,739,288,739,257"/>
+</map>

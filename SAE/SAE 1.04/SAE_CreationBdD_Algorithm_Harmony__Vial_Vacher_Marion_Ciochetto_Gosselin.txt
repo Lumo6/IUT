@@ -1,0 +1,62 @@
+drop table if exists participants;
+drop table if exists notes;
+drop table if exists groupes;
+drop table if exists salle;
+drop table if exists jury;
+drop table if exists sessions;
+
+CREATE TABLE `jury`(
+mdp varchar(55) NOT NULL,
+id_jury int(11) NOT NULL,
+pseudo_jury varchar(55) NOT NULL,
+CONSTRAINT PK_jury PRIMARY KEY (id_jury)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `sessions`(
+id_session int (20) NOT NULL,
+annee int (20) NOT NULL,
+CONSTRAINT PK_jury PRIMARY KEY (id_session)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `salle` (
+`id_s` int(11) NOT NULL ,
+`capacite` int(40) NOT NULL,
+CONSTRAINT PK_salle PRIMARY KEY (id_s)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `groupes`(
+id_salle int(11) NOT NULL,
+id_session int(20) NOT NULL,
+id_groupes int(20) NOT NULL, 
+nom_groupes varchar(55) NOT NULL,
+nom_jeu varchar(55) NOT NULL,
+lien_jeu varchar(55) NOT NULL,
+lien_historique varchar(55) NOT NULL,
+nbr_versions int (20) NOT NULL,
+type_jeu varchar(55) NOT NULL,
+CONSTRAINT PK_groupes PRIMARY KEY (id_groupes),
+CONSTRAINT FK_groupes_salle FOREIGN KEY (id_salle) REFERENCES salle (id_s),
+CONSTRAINT FK_groupes_sessions FOREIGN KEY (id_session) REFERENCES sessions (id_session)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+CREATE TABLE `participants`(
+mdp varchar(55)NOT NULL,
+id_participants varchar(55)NOT NULL,
+id_groupes int(20)NOT NULL,
+pseudo varchar(50)NOT NULL,	
+CONSTRAINT PK_participants PRIMARY KEY (id_participants),
+CONSTRAINT FK_participants_groupes FOREIGN KEY (id_groupes) REFERENCES groupes (id_groupes)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `notes`(
+id_notes int(60) NOT NULL,
+id_jury int(11)  NOT NULL,
+notes int(21) NOT NULL,
+type varchar(55) NOT NULL,
+id_groupes int(20) NOT NULL,
+commentaire varchar (200) NOT NULL,
+CONSTRAINT PK_notes PRIMARY KEY (id_notes),
+CONSTRAINT FK_notes_jury FOREIGN KEY (id_jury) REFERENCES jury (id_jury),
+CONSTRAINT FK_notes_groupes FOREIGN KEY (id_groupes) REFERENCES groupes (id_groupes)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

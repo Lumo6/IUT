@@ -1,0 +1,19 @@
+<map id="Swarm.cpp" name="Swarm.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CNet." alt="" coords="59,5,146,32"/>
+<area shape="rect" id="Node000002" href="$_swarm_8h.html" title="Déclaration de la classe CSwarm." alt="" coords="66,80,139,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,33,105,64,100,64,100,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,45,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,109,51,146,48,142,87,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="68,155,137,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="105,107,105,139,100,139,100,107"/>
+<area shape="rect" id="Node000005" href="$_butterfly_8h.html" title="Déclaration de la classe CButterfly." alt="" coords="161,155,241,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="121,105,173,143,170,148,118,109"/>
+<area shape="rect" id="Node000006" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="107,229,196,256"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="195,183,171,218,167,215,190,180"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="220,229,281,256"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="212,180,235,215,231,218,207,183"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="82,304,136,331"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="147,258,126,292,122,289,142,255"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="160,304,231,331"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="162,255,182,289,178,292,157,258"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="operator*" name="operator*">
+<area shape="rect" id="Node000001" title="Opérateur *." alt="" coords="5,5,79,32"/>
+<area shape="rect" id="Node000002" href="$class_c_matrice.html#a69b8790b2f7b3ea519822dbd9bcbb64b" title="Retourne le nombre de colonnes." alt="" coords="265,5,349,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,16,250,16,250,21,79,21"/>
+<area shape="rect" id="Node000003" href="$class_c_matrice.html#a12a846810e53c25145c679becad5d986" title="Retourne le nombre de lignes." alt="" coords="127,31,217,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="80,23,112,30,111,35,79,28"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="217,33,249,27,250,32,218,38"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Identity" name="Identity">
+<area shape="rect" id="Node000001" title="Initialise une matrice identité" alt="" coords="5,5,69,32"/>
+<area shape="rect" id="Node000002" href="$class_c_matrice.html#a69b8790b2f7b3ea519822dbd9bcbb64b" title="Retourne le nombre de colonnes." alt="" coords="255,5,339,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="69,16,240,16,240,21,69,21"/>
+<area shape="rect" id="Node000003" href="$class_c_matrice.html#a12a846810e53c25145c679becad5d986" title="Retourne le nombre de lignes." alt="" coords="117,31,207,57"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="70,22,102,29,101,34,69,28"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="207,33,239,27,240,32,208,38"/>
+</map>

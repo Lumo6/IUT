@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\lucky\Desktop\Etude\1A\C++\TP13\TP13\Main.cpp(49,28): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\lucky\Desktop\Etude\1A\C++\TP13\TP13\Main.cpp(24,11): warning C4101: 'fDuree' : variable locale non référencée
+  TP13.vcxproj -> C:\Users\lucky\Desktop\Etude\1A\C++\TP13\x64\Debug\TP13.exe

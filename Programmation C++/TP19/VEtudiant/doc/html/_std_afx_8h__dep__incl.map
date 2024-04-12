@@ -1,0 +1,17 @@
+<map id="StdAfx.h" name="StdAfx.h">
+<area shape="rect" id="Node000001" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="328,5,400,32"/>
+<area shape="rect" id="Node000002" href="$_arc_8cpp.html" title="Implements the arc class." alt="" coords="5,80,72,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="314,33,84,83,73,85,71,80,83,77,313,28"/>
+<area shape="rect" id="Node000003" href="$_ellipse_8cpp.html" title="Implements the ellipse class." alt="" coords="96,80,181,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="314,39,179,82,177,77,313,34"/>
+<area shape="rect" id="Node000004" href="$_forme_8cpp.html" title="Implements the forme class." alt="" coords="205,80,288,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="332,43,268,82,266,77,329,38"/>
+<area shape="rect" id="Node000005" href="$_rectangle_8cpp.html" title="Implements the rectangle class." alt="" coords="312,80,416,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="367,48,367,80,361,80,361,48"/>
+<area shape="rect" id="Node000006" href="$_std_afx_8cpp.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="440,80,525,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="399,38,463,77,460,82,396,43"/>
+<area shape="rect" id="Node000007" href="$_t_p_8cpp.html" title="Définition de la classe CTP." alt="" coords="549,80,611,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="415,34,549,79,547,84,414,39"/>
+<area shape="rect" id="Node000008" href="$prog_8cpp.html" title="Programme principal." alt="" coords="635,80,706,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="415,29,623,77,635,80,634,85,622,83,414,34"/>
+</map>

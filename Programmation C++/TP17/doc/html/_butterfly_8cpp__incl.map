@@ -1,0 +1,15 @@
+<map id="Butterfly.cpp" name="Butterfly.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CButterfly." alt="" coords="125,5,219,32"/>
+<area shape="rect" id="Node000002" href="$_butterfly_8h.html" title="Déclaration de la classe CButterfly." alt="" coords="84,80,164,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,34,143,69,138,66,161,31"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="188,80,252,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="183,31,206,66,201,69,178,34"/>
+<area shape="rect" id="Node000003" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="30,155,119,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,109,94,143,90,140,113,106"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="143,155,204,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="135,106,158,140,154,143,130,109"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,229,59,256"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="70,183,49,217,45,215,65,181"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="83,229,154,256"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="85,180,105,215,101,217,80,183"/>
+</map>
