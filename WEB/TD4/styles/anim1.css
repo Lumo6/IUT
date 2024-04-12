@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#carre{
+    position: absolute;
+    border: 5px green solid;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+}
+
+#balle{
+    position: absolute;
+    top: 350px;
+    left: 350px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: deplacement 2s infinite;
+}
+
+@keyframes deplacement{
+    0% {top: 350px;left: 350px; opacity: 1; }
+    25% {top: 350px;left: 0px; opacity: 0; }
+    50% {top: 0px;left: 0px; opacity: 1;  }
+    75% {top: 0px;left: 350px; opacity: 0; }
+}
+
+#centre{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color:crimson;
+    border-radius: 50%;
+    animation: zoom 5s infinite;
+}
+
+@keyframes zoom{
+    0% {transform: scale(1,1);}
+    50% {transform: scale(0.25,0.25);}
+}

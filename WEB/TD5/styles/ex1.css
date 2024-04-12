@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+}
+
+pre{
+    height: 100px;
+    width: 50%;
+    border: 2px red solid;
+    overflow: auto;
+    min-width : 630px;
+}
+
+@media only screen and (min-width: 600px) { /* For tablets: */
+    body {
+    background-color: #007FFF;
+    }
+   }
+   @media only screen and (min-width: 768px) { /* For desktop: */
+    body {
+    background-color: #CC3299;
+    }
+   }
+   
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+    background-color: #D8D8BF;
+    }
+   }
+   

@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#salon{
+    transform: scale(3);
+}
+
+#balle{
+    position: absolute;
+    left:320px;
+    top: 250px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce{
+    from, to  {
+        top: 250px;
+        animation-timing-function: ease-in;
+      }
+      20%{ top:420px; transform: scaleY(1);animation-timing-function: none}
+      50% {
+        top: 480px;
+        animation-timing-function: ease-in-out;
+        transform: scaleY(0.5);
+      }
+      80%{top:420px; transform: scaleY(1);animation-timing-function: ease-in-out}
+}

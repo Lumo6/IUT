@@ -1,0 +1,25 @@
+.part1{
+    background-color:gray;
+    max-width: 750px;
+    }
+.part2{
+    background-color:rgb(37, 155, 37);
+    max-width: 750px;
+    }
+.part3{
+    background-color:rgb(167, 77, 35);
+    max-width: 750px;
+    }
+.part4{
+    background-color:rgb(105, 66, 155);
+    max-width: 750px;
+    }
+.image{
+    mix-blend-mode: color-burn;
+    object-fit: contain;
+}
+td,th{
+    border: solid 1px black;
+    padding: 30px;
+    border-collapse: collapse;
+}

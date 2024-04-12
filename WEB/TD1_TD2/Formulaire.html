@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/formulaire.css">
+	</head>
+	<body>
+    
+
+    <header>
+      <h1 class="titre"><b>Initiation au développement C++</b><br /></h1>
+    </header>
+	
+		<main>
+            <form action="" method="get" class="form-example">
+                <div class="form-example">
+                  <label for="name">Votre Nom: </label>
+                  <input type="text" class="ecriture" name="name" id="name" placeholder=".........................." required />
+                </div>
+                <br>
+                <div class="form-example">
+                  <label for="name">Votre Prénom: </label>
+                  <input type="text" class="ecriture" name="email" id="email" placeholder="............................" required />
+                </div>
+                <br>
+                <div class="form-example">
+                    <label for="email">Votre email: </label>
+                    <input type="email" class="ecriture" name="email" id="email" placeholder="----@----.---" required />
+                </div>
+                <br>
+                <div class="form-example">
+                    <label for="name">Votre numéro: </label>
+                    <input type="number" class="ecriture" name="num" id="num" placeholder="06/07-12345678" pattern="[0]{1}+[6-7]{1}+[0-9]{8}" required/>
+                </div>
+                <br>
+                <div class="form-example">
+                    <label for="date_n">Votre date de naissance : </label>
+                    <input type="date" class="ecriture" name="date_n" id="date_n" value="2004-01-01" min="1950-01-01" max="2023-10-23" required />
+                </div>
+                <br>
+                <fieldset>
+                  <div>
+                    <input type="radio" class="ecriture" id="Groupe A" name="Groupe" value="Groupe A" />
+                    <label for="Groupe A">Groupe A</label>
+                  </div>
+                  
+                  <div>
+                    <input type="radio" class="ecriture" id="Groupe B" name="Groupe" value="Groupe B" checked />
+                    <label for="Groupe B">Groupe B</label>
+                  </div>
+                </fieldset>
+                <br>
+                <div>
+                  <label for="Chap/TP">Choisir un chapitre/TP:</label>
+                  <select id="Chap/TP">
+                    <optgroup label="CM">
+                    <option value="CM1" class="ecriture" >CM1: Introduction au C++</option>
+                    <option value="CM2" class="ecriture" >CM2: Structures conditionnelles et répétitives</option>
+                    <option value="CM3" class="ecriture" >CM3: Tableaux</option>
+                    <option value="CM4" class="ecriture" >CM6: Fichiers</option>
+                    <optgroup label="TP">
+                    <option value="TP1-3" class="ecriture" >TP1 à TP3</option>
+                    <option value="TP4" class="ecriture" >TP4</option>
+                    <option value="TP5-6" class="ecriture" >TP5 et 6</option>
+                  </select>
+                </div>
+                <br>
+                <br>
+                <fieldset>
+                  <div>
+                    <input type="checkbox" class="ecriture" id="salle 159" name="salle 159" checked />
+                    <label for="salle 159">Salle 159</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="ecriture" id="salles 159" name="salles 159" />
+                    <label for="salle 159">Salle 159</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="ecriture" id="Amphi 1" name="Amphi 1" checked />
+                    <label for="Amphi 1">Amphi 1</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" class="ecriture" id="Amphi 2" name="Amphi 2" />
+                    <label for="Amphi 2">Amphi 2</label>
+                  </div>
+                </fieldset>
+                <br>
+                <br>
+                <div>
+                  <textarea id="comm" name="comm" rows="5" cols="41" placeholder="Veuillez saisir votre commentaire ici" class="ecriture" ></textarea>
+                  <label for="file">Pièce jointe :</label>
+                  <input type="file" id="file" name="file" value="Choisir un fichier" accept="image/png, image/jpeg" />
+                </div>
+                <br>
+                <br>
+                <input type="submit" value="Envoyer">
+                <br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+              </form>
+		</main>
+
+
+	</body>
+</html>

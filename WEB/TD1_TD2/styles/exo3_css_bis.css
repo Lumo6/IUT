@@ -1,0 +1,37 @@
+
+.tt {
+    display : flex;
+    justify-content : center;
+}
+
+.divin {
+    float : left;
+    height : 100px;
+    width : 100px;
+    background-color : black;
+}
+
+.div2 {
+    float : left;
+    height : 100px;
+    width : 100px;
+    background-color : white;
+}
+
+.deux{
+    position : absolute;
+    top : 100px;
+}
+
+.trois{
+    position : absolute;
+    top : 200px;
+}
+
+footer {
+    background-color: white;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,32 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+.db{
+    background-color: black;
+}
+
+.dn{
+    background-color: white;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float:left;
+}
+.ali{
+    clear: left;
+}
+.centre{
+    margin: auto;
+    width: 306px;
+    height: 306px;
+}
+
+
+
+
+
+
