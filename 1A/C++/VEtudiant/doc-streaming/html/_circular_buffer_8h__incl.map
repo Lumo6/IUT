@@ -1,0 +1,16 @@
+<map id="CircularBuffer.h" name="CircularBuffer.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CCircularBuffer." alt="" coords="209,5,318,32"/>
+<area shape="rect" id="Node000002" href="$_circular_buffer_error_8h.html" title="Déclaration de la classe CCircularBufferError." alt="" coords="75,80,212,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="244,35,179,74,176,69,241,30"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,77,181"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="209,25,172,30,134,40,96,57,64,82,55,95,49,109,44,140,38,139,44,108,51,92,60,78,93,53,132,35,171,25,208,19"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="236,80,291,107"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="266,33,266,64,261,64,261,33"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="316,80,390,107"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="281,30,327,68,324,72,278,35"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="415,80,475,107"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="296,30,401,72,399,77,294,35"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="127,109,73,147,70,143,124,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="105,155,183,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="146,107,146,139,141,139,141,107"/>
+</map>

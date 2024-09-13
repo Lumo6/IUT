@@ -1,0 +1,357 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Hôte : 127.0.0.1
+-- Généré le : ven. 19 jan. 2024 à 09:12
+-- Version du serveur : 10.4.22-MariaDB
+-- Version de PHP : 8.1.2
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Base de données : `test`
+--
+
+drop table if exists participants;
+drop table if exists notes;
+drop table if exists groupes;
+drop table if exists salle;
+drop table if exists jury;
+drop table if exists sessions;
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `groupes`
+--
+
+CREATE TABLE `groupes` (
+  `id_salle` int(11) NOT NULL,
+  `id_session` int(20) NOT NULL,
+  `id_groupes` int(20) NOT NULL,
+  `nom_groupes` varchar(55) NOT NULL,
+  `nom_jeu` varchar(55) NOT NULL,
+  `lien_jeu` varchar(55) NOT NULL,
+  `lien_historique` varchar(55) NOT NULL,
+  `nbr_versions` int(20) NOT NULL,
+  `type_jeu` varchar(55) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `groupes`
+--
+
+INSERT INTO `groupes` (`id_salle`, `id_session`, `id_groupes`, `nom_groupes`, `nom_jeu`, `lien_jeu`, `lien_historique`, `nbr_versions`, `type_jeu`) VALUES
+(1, 1, 1, 'LesChevaliersDeLEspace', 'Stab', 'LienJeu1', 'LienHistorique1', 3, 'FPS'),
+(1, 1, 2, 'LesProfs', 'UniversalisEuropa', 'www.drive/profs/plateau/vf.fr', 'www.drive/profs/plateau/historique.fr', 1, 'RTS'),
+(2, 1, 3, '12sur42', 'CatIsLiquid', 'www.drive/12sur42/CIL/vf.fr', 'www.drive/12sur42/CIL/historique.fr', 4, 'FPS'),
+(2, 1, 4, 'Error404', 'Jeudujeu', 'www.drive/Error404/Jeudujeu/vf.fr', 'www.drive/Error404/Jeudujeu/historique.fr', 2, 'Survival'),
+(1, 2, 5, 'Allinligne', 'Kourage', 'www.drive/Allinligne/Kourage/vf.fr', 'www.driver/Allinligne/historique.fr', 1, 'MOBA'),
+(4, 1, 6, 'Numero94', 'Ouragan', 'www.drive/Numero94/Ouragan/vf.fr', 'www.drive/Numero94/Ouragan/historique.fr', 3, 'FPS'),
+(6, 2, 7, 'InconnuEnLigne', 'LastPast', 'www.drive/InconnuEnLigne/LastPast/vf.fr', 'www.drive/InconnuEnLigne/LastPast/historique.fr', 2, 'RTS'),
+(5, 1, 8, 'JEU', 'La Maladie', 'www.drive/JEU/La_maladie/vf.fr', 'www.drive/JEU/La_maladie/historique.fr', 3, 'HORROR'),
+(5, 2, 9, 'CommeBack', 'Alone', 'ww.drive/CommeBack/Alone/vf.fr', 'ww.drive/CommeBack/Alone/historique.fr', 1, 'MOBA'),
+(5, 1, 10, 'SANSVINESTUN', 'Chandelier', 'www.drive/SVEU/Chandelier/vf.fr', 'www.drive/SVEU/Chandelier/historique.fr', 2, 'FPS'),
+(3, 2, 11, 'LastOfUs', 'ALI it’s you ?', 'www.drive/LastOfUs/AIY/vf.fr', 'www.drive/LastOfUs/AIY/historique.fr', 3, 'HORROR'),
+(8, 1, 12, 'JoueurLOL', 'Partage et perd', 'www.drive/JoueurLOL/Partage_et_perd/vf.fr', 'www.drive/JoueurLOL/Partage_et_perd/historique.fr', 1, 'GACHA');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `jury`
+--
+
+CREATE TABLE `jury` (
+  `mdp` varchar(55) NOT NULL,
+  `id_jury` int(11) NOT NULL,
+  `pseudo_jury` varchar(55) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `jury`
+--
+
+INSERT INTO `jury` (`mdp`, `id_jury`, `pseudo_jury`) VALUES
+('80XmpJBs', 1, 'Doubledoor'),
+('I0VKAS8R', 2, 'TableDubois'),
+('EVc81FYY', 3, 'UnPoter'),
+('hNNrPHQP', 4, 'PowerGranger'),
+('bUvGZSGc', 5, 'Choipo'),
+('y5ZAOQ5X', 6, 'Hagreed'),
+('XwMd2BiQ', 7, 'FauxLoeil'),
+('V0IIhLXZ', 8, 'PtitWhisley');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `notes`
+--
+
+CREATE TABLE `notes` (
+  `id_notes` int(60) NOT NULL,
+  `id_jury` int(11) NOT NULL,
+  `notes` int(21) NOT NULL,
+  `type` varchar(55) NOT NULL,
+  `id_groupes` int(20) NOT NULL,
+  `commentaire` varchar(200) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `notes`
+--
+
+INSERT INTO `notes` (`id_notes`, `id_jury`, `notes`, `type`, `id_groupes`, `commentaire`) VALUES
+(1, 1, 5, 'Gameplay', 1, 'Peut mieux faire '),
+(2, 2, 4, 'Jouabilité et prise en main', 1, 'Mauvais en global'),
+(3, 3, 9, 'Style', 1, 'Pas assez harmonique'),
+(4, 4, 1, 'Présentation', 1, 'Aucune Volontés de la part des présentateurs'),
+(5, 5, 20, 'Gameplay', 2, 'Des idées excellentes'),
+(6, 6, 20, 'Jouabilité et prise en main', 2, 'Les mouvements sont un bonheur à la manette'),
+(7, 7, 20, 'Style', 2, 'Décors féérique et fantastique'),
+(8, 8, 20, 'Présentation', 2, 'Clair et concis, on comprends l’intention du groupe'),
+(9, 1, 15, 'Gameplay', 3, 'Concept ingénieux'),
+(10, 2, 15, 'Jouabilité et prise en main', 3, 'Prise en main agréable'),
+(11, 3, 18, 'Style', 3, 'Une patte artistique visuel époustouflante'),
+(12, 4, 15, 'Présentation', 3, 'Bonne mise en avant du jeu'),
+(13, 5, 19, 'Gameplay', 4, 'Extrêmement addictif et jouissif à jouer'),
+(14, 6, 20, 'Jouabilité et prise en main', 4, 'Parfait, rien à redire'),
+(15, 7, 11, 'Style', 4, 'Couleurs un peu ternes'),
+(16, 8, 10, 'Présentation', 4, 'Groupe peu à l’aise à l’oral'),
+(17, 1, 5, 'Gameplay', 5, 'Mauvais, du déjà vu'),
+(18, 2, 4, 'Jouabilité et prise en main', 5, 'Incontrôlable, c’est à n’y rien comprendre'),
+(19, 3, 1, 'Style', 5, 'J’ai eu la nausée après avoir joué plus de 5 minutes'),
+(20, 4, 2, 'Présentation', 5, 'Aucun motivation de la part du groupe'),
+(21, 5, 9, 'Gameplay', 6, 'Pas assez intuitif'),
+(22, 6, 13, 'Jouabilité et prise en main', 6, 'Assez classique, manque de clarté'),
+(23, 7, 7, 'Style', 6, 'Personnage qui marche avec un balai dans les fesses'),
+(24, 8, 2, 'Présentation', 6, 'Aucun enthousiasme et volonté'),
+(25, 1, 13, 'Gameplay', 7, 'Simple mais efficace'),
+(26, 2, 8, 'Jouabilité et prise en main', 7, 'Problème dans le déplacement du personnage'),
+(27, 3, 3, 'Style', 7, 'Peux esthétique'),
+(28, 4, 0, 'Présentation', 7, 'Pas venue à la présentation'),
+(29, 5, 12, 'Gameplay', 8, 'Amélioration d’une idée déjà existante'),
+(30, 6, 4, 'Jouabilité et prise en main', 8, 'Une horreur à avoir entre les mains'),
+(31, 7, 3, 'Style', 8, 'Laid j’ai perdu de la vision'),
+(32, 8, 7, 'Présentation', 8, 'Mauvaise argumentation on ne comprend pas l’argumentation'),
+(33, 1, 17, 'Gameplay', 9, 'Excellent, cela faisait longtemps que je n’avais pas vu une aussi bonne idée'),
+(34, 2, 11, 'Jouabilité et prise en main', 9, 'Correct, mais sans plus'),
+(35, 3, 13, 'Style', 9, 'Classique mais fait son job'),
+(36, 4, 8, 'Présentation', 9, 'Trop de blabla pour pas grand chose'),
+(37, 5, 15, 'Gameplay', 10, 'Intuitif, on comprend vite quoi faire'),
+(38, 6, 19, 'Jouabilité et prise en main', 10, 'Parfait, le personnage est flexible dans ses mouvements'),
+(39, 7, 18, 'Style', 10, 'Graphisme coloré et fluide'),
+(40, 8, 19, 'Présentation', 10, 'Bonne synthèse'),
+(41, 1, 14, 'Gameplay', 11, 'Sympathique, j’ai pris du plaisir à jouer'),
+(42, 2, 13, 'Jouabilité et prise en main', 11, 'Classique, rien de mauvais et de bien'),
+(43, 3, 17, 'Style', 11, 'Identité visuel original'),
+(44, 4, 11, 'Présentation', 11, 'Assez bien à part quelques fautes'),
+(45, 5, 14, 'Gameplay', 12, 'Cela me rappelle les jeux de la N64, bonne idée!'),
+(46, 6, 16, 'Jouabilité et prise en main', 12, 'Je souffre comme à l’époque quel plaisir'),
+(47, 7, 17, 'Style', 12, 'Reprend l’identité visuel des années 90, formidable'),
+(48, 8, 18, 'Présentation', 12, 'Très bonne argumentation rien à redire');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `participants`
+--
+
+CREATE TABLE `participants` (
+  `mdp` varchar(55) NOT NULL,
+  `id_participants` varchar(55) NOT NULL,
+  `id_groupes` int(20) NOT NULL,
+  `pseudo` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `participants`
+--
+
+INSERT INTO `participants` (`mdp`, `id_participants`, `id_groupes`, `pseudo`) VALUES
+('19X6LYnv', '8Morts6Blessés', 5, '8Morts6Blessés'),
+('RLYZF7SR', 'AdrienLeLapin', 8, 'AdrienLeLapin'),
+('4d505PdT', 'ApollonLeGrillon', 9, 'ApollonLeGrillon'),
+('wYagrX0h', 'BelleLaCoccinelle', 7, 'BelleLaCoccinelle'),
+('MrlD0PBH', 'BenjaminLeNainDeJardin', 7, 'BenjaminLeNainDeJardin'),
+('4CoEvMnH', 'BischoffPierreYves', 2, 'BischoffPierreYves'),
+('SM5NBLjs', 'CecilePaulhiac', 2, 'CecilePaulhiac'),
+('OBqtGA94', 'CorentinTheBoss', 9, 'CorentinTheBoss'),
+('VYtSV1Ka', 'CrocodileAgile', 3, 'CrocodileAgile'),
+('6pEp5nVV', 'ElizabethLaQueen', 3, 'ElizabethLaQueen'),
+('cm28dvAg', 'Etnoah', 12, 'Etnoah'),
+('44HfXRhv', 'Gang-Of-Rat', 1, 'Gang-Of-Rat'),
+('ufthPa0y', 'GnocchiLustucru', 11, 'GnocchiLustucru'),
+('qYgGbhRh', 'Gourgandinedu69', 7, 'Gourgandinedu69'),
+('FnkvPSl0', 'JanouLeFifou', 4, 'JanouLeFifou'),
+('OWmYF3oL', 'Jean-Michel08', 1, 'Jean-Michel08'),
+('jofdqGqL', 'JeanBon', 7, 'JeanBon'),
+('sFrH06Eg', 'JeanBonBeurre', 1, 'JeanBonBeurre'),
+('v8aA0Mie', 'JeanCharlesLeGangsta', 4, 'JeanCharlesLeGangsta'),
+('vlsbMX25', 'JeanRiberrydu92', 4, 'JeanRiberrydu92'),
+('lWZX11OR', 'JonathanLeFlan', 7, 'JonathanLeFlan'),
+('ix23Wy2J', 'KevinLaPoutine', 7, 'KevinLaPoutine'),
+('0SQzThOK', 'LaEgirlUwU', 4, 'LaEgirlUwU'),
+('BSaBsJtS', 'LapinTaquin', 10, 'LapinTaquin'),
+('7cNDgXAF', 'LeBgDesAlpes05', 3, 'LeBgDesAlpes05'),
+('1J3Q3OXW', 'LéonLeCaméléon', 6, 'LéonLeCaméléon'),
+('Whz61u8c', 'LeSelLaBaileine', 9, 'LeSelLaBaileine'),
+('T5KRR752', 'LoulouLePou', 7, 'LoulouLePou'),
+('06oerE9s', 'LuceLaPuce', 7, 'LuceLaPuce'),
+('ELylUW95', 'LucienLeGourdin', 5, 'LucienLeGourdin'),
+('qwpJ7JHp', 'Lululaberlue', 12, 'Lululaberlue'),
+('Te5uKdn0', 'Lululaberlue2', 9, 'Lululaberlue'),
+('1zLVlLKz', 'LuluLaTortue', 7, 'LuluLaTortue'),
+('YiMHJ234', 'MageNoir', 4, 'MageNoir'),
+('YV6a7wyi', 'Malekith', 8, 'Malekith'),
+('9j8POeYW', 'MarieLaFourm', 7, 'MarieLaFourm'),
+('6H2xotbR', 'MathisLeMaïs', 8, 'MathisLeMaïs'),
+('hC0COwUy', 'MichaelMyers', 1, 'MichaelMyers'),
+('YZOObREr', 'Newone', 10, 'Newone'),
+('LkADwOZ5', 'OscarleCafard', 8, 'OscarleCafard'),
+('vr1XtCUa', 'PatLeMillePattes', 8, 'PatLeMillePattes'),
+('stDOnqnk', 'PeterGriffin', 10, 'PeterGriffin'),
+('Q88q7s15', 'Ptite-Papouille', 3, 'Ptite-Papouille'),
+('lSK3tK9s', 'RaptorDissident', 10, 'RaptorDissident'),
+('swAuNDGd', 'RatDégout', 10, 'PeterGriffin'),
+('N5eARwSm', 'RoméoLeCrapaud', 9, 'RoméoLeCrapaud'),
+('Ih9PFS12', 'Rosy', 11, 'Rosy'),
+('cW9hG2kc', 'Rosy2', 4, 'Rosy'),
+('XIMmpo9Y', 'RubenNeves', 10, 'RubenNeves'),
+('blU0W3sz', 'SamsonLeHérisson', 9, 'SamsonLeHérisson'),
+('j0j07ou3', 'SansPlomb95', 1, 'SansPlomb95'),
+('egMW3pEp', 'SansPlomb952', 11, 'SansPlomb95'),
+('kaO8RC9M', 'SonicLePélican', 11, 'SonicLePélican'),
+('LtLMBKdU', 'Tabernak', 10, 'Tabernak'),
+('MfOjAVbU', 'Tchang Kaï Chek', 12, 'Tchang Kaï Chek'),
+('IPPNxc3n', 'VincentSauvage', 2, 'VincentSauvage'),
+('LcsuZTXr', 'VinDiesel', 9, 'VinDiesel'),
+('TZiSno1O', 'VladimirLénine', 1, 'VladimirLénine'),
+('HL4rGzvW', 'XxDarkSasuke72xX', 8, 'XxDarkSasuke72xX'),
+('x08AbAWY', 'Xx_Killer_360_xX', 8, 'Xx_Killer_360_xX');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `salle`
+--
+
+CREATE TABLE `salle` (
+  `id_s` int(11) NOT NULL,
+  `capacite` int(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `salle`
+--
+
+INSERT INTO `salle` (`id_s`, `capacite`) VALUES
+(1, 30),
+(2, 20),
+(3, 15),
+(4, 25),
+(5, 20),
+(6, 40),
+(7, 40),
+(8, 40);
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `sessions`
+--
+
+CREATE TABLE `sessions` (
+  `id_session` int(20) NOT NULL,
+  `annee` int(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Déchargement des données de la table `sessions`
+--
+
+INSERT INTO `sessions` (`id_session`, `annee`) VALUES
+(1, 2023),
+(2, 2024);
+
+--
+-- Index pour les tables déchargées
+--
+
+--
+-- Index pour la table `groupes`
+--
+ALTER TABLE `groupes`
+  ADD PRIMARY KEY (`id_groupes`),
+  ADD KEY `FK_groupes_salle` (`id_salle`),
+  ADD KEY `FK_groupes_sessions` (`id_session`);
+
+--
+-- Index pour la table `jury`
+--
+ALTER TABLE `jury`
+  ADD PRIMARY KEY (`id_jury`);
+
+--
+-- Index pour la table `notes`
+--
+ALTER TABLE `notes`
+  ADD PRIMARY KEY (`id_notes`),
+  ADD KEY `FK_notes_jury` (`id_jury`),
+  ADD KEY `FK_notes_groupes` (`id_groupes`);
+
+--
+-- Index pour la table `participants`
+--
+ALTER TABLE `participants`
+  ADD PRIMARY KEY (`id_participants`),
+  ADD KEY `FK_participants_groupes` (`id_groupes`);
+
+--
+-- Index pour la table `salle`
+--
+ALTER TABLE `salle`
+  ADD PRIMARY KEY (`id_s`);
+
+--
+-- Index pour la table `sessions`
+--
+ALTER TABLE `sessions`
+  ADD PRIMARY KEY (`id_session`);
+
+--
+-- Contraintes pour les tables déchargées
+--
+
+--
+-- Contraintes pour la table `groupes`
+--
+ALTER TABLE `groupes`
+  ADD CONSTRAINT `FK_groupes_salle` FOREIGN KEY (`id_salle`) REFERENCES `salle` (`id_s`),
+  ADD CONSTRAINT `FK_groupes_sessions` FOREIGN KEY (`id_session`) REFERENCES `sessions` (`id_session`);
+
+--
+-- Contraintes pour la table `notes`
+--
+ALTER TABLE `notes`
+  ADD CONSTRAINT `FK_notes_groupes` FOREIGN KEY (`id_groupes`) REFERENCES `groupes` (`id_groupes`),
+  ADD CONSTRAINT `FK_notes_jury` FOREIGN KEY (`id_jury`) REFERENCES `jury` (`id_jury`);
+
+--
+-- Contraintes pour la table `participants`
+--
+ALTER TABLE `participants`
+  ADD CONSTRAINT `FK_participants_groupes` FOREIGN KEY (`id_groupes`) REFERENCES `groupes` (`id_groupes`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -1,0 +1,22 @@
+<map id="vecteur2D.cpp" name="vecteur2D.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CVecteur2D." alt="" coords="393,5,496,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="196,80,267,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="408,35,282,78,281,73,407,30"/>
+<area shape="rect" id="Node000007" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="359,80,448,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="440,34,420,68,416,65,435,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="453,155,524,181"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="451,32,483,139,478,140,446,33"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="523,80,585,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="465,30,524,69,521,74,462,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,110,93,151,92,146,198,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,155,174,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,109,171,147,168,143,214,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,155,266,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="234,107,234,139,229,139,229,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="290,155,351,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,105,295,143,292,147,245,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="375,155,429,181"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="406,107,405,139,400,139,400,107"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="420,105,464,143,461,147,416,109"/>
+</map>

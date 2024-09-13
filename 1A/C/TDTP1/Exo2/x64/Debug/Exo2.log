@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\lucky\Desktop\Etude\1A\C\TDTP1\Exo2\Main.cpp(23,13): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+C:\Users\lucky\Desktop\Etude\1A\C\TDTP1\Exo2\Main.cpp(34,9): warning C4244: 'return' : conversion de 'float' en 'int', perte possible de données
+  Exo2.vcxproj -> C:\Users\lucky\Desktop\Etude\1A\C\TDTP1\x64\Debug\Exo1.3.exe

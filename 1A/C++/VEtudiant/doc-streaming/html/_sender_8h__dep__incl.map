@@ -1,0 +1,7 @@
+<map id="Sender.h" name="Sender.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CSender." alt="" coords="83,5,156,32"/>
+<area shape="rect" id="Node000002" href="$_sender_8cpp.html" title="Définition de la classe CSender." alt="" coords="5,80,93,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,45,63,81,59,78,95,41"/>
+<area shape="rect" id="Node000003" href="$_t_p_0123_01-_01streaming_8cpp.html" title="Programme principal de la simulation de streaming." alt="" coords="117,80,266,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="145,41,181,78,177,81,141,45"/>
+</map>

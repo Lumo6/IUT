@@ -1,0 +1,33 @@
+<map id="TP 23 &#45; streaming.cpp" name="TP 23 &#45; streaming.cpp">
+<area shape="rect" id="Node000001" title="Programme principal de la simulation de streaming." alt="" coords="127,5,276,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="35,155,88,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,32,82,50,63,64,47,81,41,95,41,110,50,140,45,142,35,111,36,94,42,79,59,60,80,45,125,27"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="195,155,251,181"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="278,27,324,45,345,60,363,79,368,93,363,108,347,122,323,135,266,156,264,151,321,130,344,117,358,105,363,93,358,81,342,64,322,50,276,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="127,155,165,181"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="199,33,158,141,153,139,194,32"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="253,229,324,256"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="127,31,76,49,54,63,34,82,17,107,9,131,11,155,25,180,38,191,59,200,114,216,178,228,237,235,237,240,178,233,113,222,57,205,35,195,21,183,6,156,4,130,13,105,30,78,50,59,74,44,125,26"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="206,80,264,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="210,31,225,65,221,67,205,34"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="288,80,348,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="223,30,286,69,283,74,221,35"/>
+<area shape="rect" id="Node000008" href="$_circular_buffer_8h.html" title="Déclaration de la classe CCircularBuffer." alt="" coords="423,80,583,107"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="255,30,436,73,435,78,254,35"/>
+<area shape="rect" id="Node000013" href="$_sender_8h.html" title="Déclaration de la classe CSender." alt="" coords="57,80,130,107"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="184,35,127,73,124,69,181,30"/>
+<area shape="poly" id="edge12_Node000008_Node000003" title=" " alt="" coords="455,110,266,158,265,153,454,105"/>
+<area shape="poly" id="edge11_Node000008_Node000005" title=" " alt="" coords="424,106,367,124,340,138,317,156,300,184,293,215,288,213,295,182,313,153,337,133,365,119,422,101"/>
+<area shape="rect" id="Node000009" href="$_circular_buffer_error_8h.html" title="Déclaration de la classe CCircularBufferError." alt="" coords="326,155,464,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="486,109,428,148,425,143,483,105"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="487,155,562,181"/>
+<area shape="poly" id="edge13_Node000008_Node000011" title=" " alt="" coords="509,106,519,139,514,141,504,108"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="586,155,647,181"/>
+<area shape="poly" id="edge14_Node000008_Node000012" title=" " alt="" coords="524,105,585,144,582,148,521,109"/>
+<area shape="poly" id="edge9_Node000009_Node000005" title=" " alt="" coords="378,184,321,222,318,218,375,180"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="356,229,434,256"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="398,182,398,214,392,214,392,182"/>
+<area shape="poly" id="edge16_Node000013_Node000002" title=" " alt="" coords="91,108,76,142,71,139,86,106"/>
+<area shape="poly" id="edge18_Node000013_Node000003" title=" " alt="" coords="118,105,188,144,186,149,115,110"/>
+<area shape="poly" id="edge17_Node000013_Node000004" title=" " alt="" coords="105,106,130,141,126,144,101,109"/>
+</map>

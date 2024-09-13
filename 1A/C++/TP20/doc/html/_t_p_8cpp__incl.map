@@ -1,0 +1,54 @@
+<map id="TP.cpp" name="TP.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CTP." alt="" coords="563,5,625,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="196,80,267,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,29,283,85,282,79,562,24"/>
+<area shape="rect" id="Node000007" href="$_t_p_8h.html" title="Déclaration de la classe CTP." alt="" coords="531,80,580,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="590,34,571,68,567,65,585,31"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="604,80,661,107"/>
+<area shape="poly" id="edge29_Node000001_Node000021" title=" " alt="" coords="603,31,621,65,617,68,598,34"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="686,80,739,107"/>
+<area shape="poly" id="edge30_Node000001_Node000022" title=" " alt="" coords="616,30,680,69,678,74,613,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,110,93,151,92,146,198,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,155,174,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,109,171,147,168,143,214,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,155,266,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="234,107,234,139,229,139,229,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="290,155,351,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,105,295,143,292,147,245,109"/>
+<area shape="rect" id="Node000008" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="624,379,713,405"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="581,100,593,104,643,112,686,113,706,116,725,122,743,134,761,153,777,176,787,198,792,219,792,241,782,284,758,332,738,355,714,373,711,369,734,352,753,329,777,282,787,240,787,220,782,200,772,179,757,156,740,138,723,127,705,121,686,119,643,118,592,109,579,105"/>
+<area shape="rect" id="Node000011" href="$_wall_8h.html" title="Déclaration de la classe CWall." alt="" coords="426,155,485,181"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="539,109,487,147,484,143,536,105"/>
+<area shape="rect" id="Node000013" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="415,304,464,331"/>
+<area shape="poly" id="edge27_Node000007_Node000013" title=" " alt="" coords="531,100,503,105,471,115,440,132,416,156,408,172,405,189,406,225,415,260,428,289,423,291,410,261,400,226,399,188,403,170,412,153,437,128,469,110,502,100,530,94"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="675,304,743,331"/>
+<area shape="poly" id="edge28_Node000007_Node000016" title=" " alt="" coords="581,100,737,153,746,170,751,188,750,225,739,261,726,292,721,289,734,260,744,225,746,188,741,172,734,157,579,105"/>
+<area shape="rect" id="Node000019" href="$_mech_clock_8h.html" title="Déclaration de la classe CMechClock." alt="" coords="625,155,723,181"/>
+<area shape="poly" id="edge23_Node000007_Node000019" title=" " alt="" coords="577,105,642,144,639,149,575,109"/>
+<area shape="rect" id="Node000020" href="$_auto_clock_8h.html" title="Déclaration de la classe CAutoClock." alt="" coords="509,155,602,181"/>
+<area shape="poly" id="edge25_Node000007_Node000020" title=" " alt="" coords="558,107,558,139,553,139,553,107"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="559,453,613,480"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="656,408,613,445,610,441,653,404"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="637,453,708,480"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="672,406,674,438,668,438,667,406"/>
+<area shape="rect" id="Node000012" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="552,229,617,256"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="479,180,550,219,547,224,477,184"/>
+<area shape="poly" id="edge20_Node000011_Node000013" title=" " alt="" coords="457,182,445,289,440,288,451,182"/>
+<area shape="poly" id="edge22_Node000011_Node000016" title=" " alt="" coords="486,176,571,204,631,227,667,258,694,290,690,293,663,261,629,232,569,209,484,181"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="477,229,527,256"/>
+<area shape="poly" id="edge21_Node000011_Node000018" title=" " alt="" coords="466,180,488,215,484,218,461,183"/>
+<area shape="poly" id="edge12_Node000012_Node000008" title=" " alt="" coords="594,255,656,364,652,367,590,258"/>
+<area shape="poly" id="edge18_Node000012_Node000009" title=" " alt="" coords="587,257,589,438,583,438,582,257"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="561,259,479,299,477,295,558,254"/>
+<area shape="poly" id="edge17_Node000012_Node000016" title=" " alt="" coords="608,254,676,294,673,298,605,259"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="488,304,548,331"/>
+<area shape="poly" id="edge19_Node000012_Node000017" title=" " alt="" coords="575,258,542,294,538,291,571,255"/>
+<area shape="poly" id="edge16_Node000013_Node000008" title=" " alt="" coords="465,325,476,328,613,371,612,376,475,333,464,330"/>
+<area shape="rect" id="Node000014" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="385,379,494,405"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="442,331,442,363,437,363,437,331"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="394,453,485,480"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="442,406,442,438,437,438,437,406"/>
+<area shape="poly" id="edge24_Node000019_Node000012" title=" " alt="" coords="660,184,614,221,610,217,657,180"/>
+<area shape="poly" id="edge26_Node000020_Node000012" title=" " alt="" coords="563,181,576,214,571,216,558,183"/>
+</map>

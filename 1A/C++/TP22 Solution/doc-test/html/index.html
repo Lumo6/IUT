@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TP 22 - Exceptions: TP 22 – Exercice 1 Modification de la classe CMatrice</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">TP 22 - Exceptions<span id="projectnumber">&#160;2013</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">TP 22 – Exercice 1 Modification de la classe <a class="el" href="class_c_matrice.html" title="Classe de gestion d&#39;une matrice.">CMatrice</a> </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Table des matières</h3>
+<ul><li class="level1"><a href="#sec0">Objectifs du TP</a></li>
+<li class="level1"><a href="#sec1">Exercice 1 Génération d’une erreur</a></li>
+<li class="level1"><a href="#sec2">Exercice 2 Création d’une classe d’erreur</a></li>
+<li class="level1"><a href="#sec3">Exercice 3 Utilisation de la classe d’erreur</a></li>
+<li class="level1"><a href="#sec4">Exercice 4 Test complet</a></li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="sec0"></a>
+Objectifs du TP</h1>
+<p>L’objectif du TP est de reprendre la classe matrice du TP précédent et de gérer les erreurs potentielles.</p>
+<h1><a class="anchor" id="sec1"></a>
+Exercice 1 Génération d’une erreur</h1>
+<ul>
+<li>
+Dans le programme principal, créez une matrice <code>matA</code> de taille 2x3 et une matrice <code>matB</code> de taille 3x2. Initialisez leurs valeurs. </li>
+<li>
+Créez une troisième matrice <code>matC</code> et copiez le code suivant : <div class="fragment"><div class="line">matC = matA + matB;</div>
+<div class="line">cout &lt;&lt; <span class="stringliteral">&quot;Affichage des matrices :\n&quot;</span></div>
+<div class="line">        <span class="stringliteral">&quot;matA = \n&quot;</span></div>
+<div class="line">     &lt;&lt; matA &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">        <span class="stringliteral">&quot;matB = \n&quot;</span></div>
+<div class="line">     &lt;&lt; matB &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line">        <span class="stringliteral">&quot;matC = \n&quot;</span></div>
+<div class="line">     &lt;&lt; matC &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div>
+</div><!-- fragment --> </li>
+<li>
+Compilez et exécutez votre programme. <ul>
+<li>
+Que se passe-t-il ? </li>
+<li>
+Déterminez pourquoi le programme se termine sans afficher les matrices. </li>
+</ul>
+</li>
+</ul>
+<h1><a class="anchor" id="sec2"></a>
+Exercice 2 Création d’une classe d’erreur</h1>
+<p>Les erreurs possibles dans la classe matrice sont les suivantes :</p>
+<table class="doxtable">
+<tr>
+<th>Fonction membre</th><th>Erreur </th></tr>
+<tr>
+<td><a class="el" href="class_c_matrice.html#a5899df90e58ec8b9a40b58f83c435625" title="Opérateurs d&#39;accès à une valeur constante.">CMatrice::operator()(size_t, size_t) const</a></td><td>Les indices sont hors de la plage </td></tr>
+<tr>
+<td><a class="el" href="class_c_matrice.html#a2be0d7a10930c89393b7190581f1e955" title="Opérateurs d&#39;accès à une valeur.">CMatrice::operator()(size_t, size_t)</a></td><td>Les indices sont hors de la plage </td></tr>
+<tr>
+<td><a class="el" href="class_c_matrice.html#ae459d5922ecf8a58bf6e1c7b59d6d4be" title="Opérateur *.">CMatrice::operator*(const CMatrice&amp; mat) const</a></td><td>Les tailles ne sont pas compatibles </td></tr>
+<tr>
+<td><a class="el" href="class_c_matrice.html#af14207fce4f60cfe65b51ba0d92473d7" title="Opérateur +=.">CMatrice::operator+=(const CMatrice&amp; mat)</a></td><td>Les tailles ne sont pas compatibles </td></tr>
+<tr>
+<td><a class="el" href="class_c_matrice.html#a89b990dbe6d863f2314026d66a869159" title="Opérateur -=.">CMatrice::operator-=(const CMatrice&amp; mat)</a></td><td>Les tailles ne sont pas compatibles </td></tr>
+</table>
+<p>Pour ces deux types d’erreur, nous pouvons leur attribuer un code d’erreur. Ce code d’erreur peut être stocké dans une classe puis interprété par une méthode de cette classe pour afficher le message d’erreur.</p>
+<ul>
+<li>
+Créez une classe <a class="el" href="class_c_erreur_matrice.html" title="Classe de gestion des erreurs de la classe CMatrice.">CErreurMatrice</a> qui a pour attributs : <ul>
+<li>
+Un entier qui sera le code d’erreur. </li>
+<li>
+Une chaîne de caractères qui identifiera la fonction qui a généré l’erreur. </li>
+<li>
+Un constructeur avec deux paramètres qui initialisera les deux attributs. </li>
+<li>
+Un accesseur public pour chacun des attributs. </li>
+</ul>
+</li>
+<li>
+Définissez l’opérateur de sortie vers flux permettant d’afficher le message d’erreur correspondant au code d’erreur d’un objet <a class="el" href="class_c_erreur_matrice.html" title="Classe de gestion des erreurs de la classe CMatrice.">CErreurMatrice</a>. </li>
+<li>
+Testez cette classe dans un programme principal. </li>
+</ul>
+<h1><a class="anchor" id="sec3"></a>
+Exercice 3 Utilisation de la classe d’erreur</h1>
+<ul>
+<li>
+Par le mécanisme des exceptions, utilisez la classe <a class="el" href="class_c_erreur_matrice.html" title="Classe de gestion des erreurs de la classe CMatrice.">CErreurMatrice</a> dans la classe matrice pour signaler les erreurs au programme principal. </li>
+<li>
+Modifiez le programme principal de <a class="el" href="index.html#sec1">l’exercice 1</a> en conséquence pour que la gestion soit complète. Le programme doit dans tous les cas afficher les matrices <code>matA</code>, <code>matB</code> et <code>matC</code>. Si une erreur survient, elle doit simplement être affichée à l’utilisateur via le flux d’erreur. </li>
+</ul>
+<h1><a class="anchor" id="sec4"></a>
+Exercice 4 Test complet</h1>
+<ul>
+<li>
+Ecrivez un programme principal permettant de tester toutes les erreurs possibles de la classe <a class="el" href="class_c_matrice.html" title="Classe de gestion d&#39;une matrice.">CMatrice</a>. </li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Lundi 2 Octobre 2023 17:08:07 pour TP 22 - Exceptions par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

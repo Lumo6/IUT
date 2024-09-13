@@ -1,0 +1,41 @@
+<map id="Wall.cpp" name="Wall.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CWall." alt="" coords="443,5,516,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="196,80,267,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="443,33,283,80,281,75,442,28"/>
+<area shape="rect" id="Node000007" href="$_wall_8h.html" title="Déclaration de la classe CWall." alt="" coords="450,80,509,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="482,33,482,64,477,64,477,33"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="533,80,597,107"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="496,31,540,68,537,72,492,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,110,93,151,92,146,198,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,155,174,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,109,171,147,168,143,214,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,155,266,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="234,107,234,139,229,139,229,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="290,155,351,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,105,295,143,292,147,245,109"/>
+<area shape="rect" id="Node000008" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="376,155,441,181"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="469,109,433,145,429,142,465,105"/>
+<area shape="rect" id="Node000012" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="455,229,504,256"/>
+<area shape="poly" id="edge18_Node000007_Node000012" title=" " alt="" coords="482,107,482,214,477,214,477,107"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="528,229,596,256"/>
+<area shape="poly" id="edge20_Node000007_Node000015" title=" " alt="" coords="489,106,550,214,545,217,484,108"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="568,155,618,181"/>
+<area shape="poly" id="edge19_Node000007_Node000017" title=" " alt="" coords="501,105,561,144,559,148,498,109"/>
+<area shape="rect" id="Node000009" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="316,304,405,331"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="395,184,376,204,361,230,355,260,357,289,352,289,350,260,355,228,372,201,391,180"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="251,379,305,405"/>
+<area shape="poly" id="edge16_Node000008_Node000010" title=" " alt="" coords="396,184,351,231,325,266,306,305,286,365,281,363,301,303,321,263,347,228,392,180"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="423,180,459,216,455,220,419,184"/>
+<area shape="poly" id="edge15_Node000008_Node000015" title=" " alt="" coords="437,179,522,220,520,225,434,184"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="371,229,431,256"/>
+<area shape="poly" id="edge17_Node000008_Node000016" title=" " alt="" coords="410,182,406,214,401,213,405,182"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="348,333,305,370,302,366,345,329"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="329,379,400,405"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="364,331,366,363,360,363,359,331"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="460,259,396,298,393,293,457,254"/>
+<area shape="rect" id="Node000013" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="429,304,538,331"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="483,256,484,288,479,289,477,257"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="438,379,529,405"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="486,331,486,363,481,363,481,331"/>
+</map>

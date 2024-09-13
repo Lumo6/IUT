@@ -1,0 +1,7 @@
+<map id="Fonctionnalités d&apos;affichage" name="Fonctionnalités d&apos;affichage">
+<area shape="rect" id="node1" title="Contient toutes les fonctionnalités permettant d&#39;afficher des informations." alt="" coords="231,92,405,117"/>
+<area shape="rect" id="node2" href="$group___drawing_bitmap.html" title="Contient toutes les fonctionnalités pour dessiner pixels et des images." alt="" coords="461,5,596,60"/>
+<area shape="rect" id="node3" href="$group___drawing_properties.html" title="Contient toutes les fonctionnalités spécifier les attibuts de dessins (crayon, pinceau,..." alt="" coords="453,85,604,125"/>
+<area shape="rect" id="node4" href="$group___drawing_shapes.html" title="Contient toutes les fonctionnalités pour dessiner des formes (arc, rectangle, ...)" alt="" coords="465,149,593,189"/>
+<area shape="rect" id="node5" href="$group___fonct_graph.html" title="Contient toutes les fonctionnalités permettant de dessiner." alt="" coords="5,92,183,117"/>
+</map>

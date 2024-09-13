@@ -1,0 +1,9 @@
+<map id="BitMap.h" name="BitMap.h">
+<area shape="rect" id="Node000001" title="Définition de la classe CBitMap." alt="" coords="45,5,119,32"/>
+<area shape="rect" id="Node000002" href="$_t_p_8h.html" title="Déclaration de la classe CTP." alt="" coords="58,80,106,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,85,80,79,80,79,48"/>
+<area shape="rect" id="Node000003" href="$_t_p_8cpp.html" title="Définition de la classe CTP." alt="" coords="5,155,68,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="68,122,47,156,42,153,64,119"/>
+<area shape="rect" id="Node000004" href="$prog_8cpp.html" title="Programme principal." alt="" coords="92,155,163,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="100,119,122,153,117,156,96,122"/>
+</map>

@@ -1,0 +1,38 @@
+﻿  Graph.cpp
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,14): error C3646: 'GetSons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,21): error C2059: erreur de syntaxe : '('
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,24): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,14): error C3646: 'Sons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(19,36): error C2065: 'Sons' : identificateur non déclaré
+  TP1.cpp
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,14): error C3646: 'GetSons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,21): error C2059: erreur de syntaxe : '('
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,24): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,14): error C3646: 'Sons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(19,36): error C2065: 'Sons' : identificateur non déclaré
+  Tree.cpp
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,14): error C3646: 'GetSons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,21): error C2059: erreur de syntaxe : '('
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(17,24): error C2334: jetons inattendus avant '{' ; corps apparent de la fonction ignoré
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,14): error C3646: 'Sons' : spécificateur de substitution inconnu
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(23,18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(19,36): error C2065: 'Sons' : identificateur non déclaré
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(39,32): error C2039: 'GetSons' n'est pas membre de 'CNode'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(7,7): message : voir la déclaration de 'CNode'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(39,2): error C2530: 'fils' : les références doivent être initialisées
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(39,2): error C3531: 'fils' : un symbole dont le type contient 'auto' doit avoir un initialiseur
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(39,24): error C2143: erreur de syntaxe : absence de ';' avant ':'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(39,41): error C2143: erreur de syntaxe : absence de ';' avant ')'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(40,7): error C2664: 'size_t CTree::hauteur(CNode::pNode,size_t)' : impossible de convertir l'argument 1 de 'int' en 'CNode::pNode'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(40,15): message : Aucun constructeur n'a pu prendre le type de source, ou la résolution de la surcharge du constructeur était ambiguë
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(32,15): message : voir la déclaration de 'CTree::hauteur'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(40,7): message : lors de la tentative de mise en correspondance de la liste des arguments '(int, size_t)'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(60,16): error C2039: 'GetValue' n'est pas membre de 'CNode'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(7,7): message : voir la déclaration de 'CNode'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(61,12): error C2661: 'std::vector<CNode::pNode,std::allocator<CNode::pNode>>::push_back' : aucune fonction surchargée ne nécessite 0 arguments
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(61,12): message : lors de la tentative de mise en correspondance de la liste des arguments '()'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Tree.cpp(71,8): error C2039: 'pushback' n'est pas membre de 'std::vector<CNode::pNode,std::allocator<CNode::pNode>>'
+C:\Users\lucky\Desktop\Etude\1A\C++\TDTP1_2_squeletteGraphe\TP1\Node.h(27,26): message : voir la déclaration de 'std::vector<CNode::pNode,std::allocator<CNode::pNode>>'
+  Génération de code en cours...

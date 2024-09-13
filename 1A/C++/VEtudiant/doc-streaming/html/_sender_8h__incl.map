@@ -1,0 +1,9 @@
+<map id="Sender.h" name="Sender.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CSender." alt="" coords="65,5,138,32"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,80,59,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,34,56,70,53,67,87,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="82,80,121,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="104,33,104,64,99,64,99,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="144,80,200,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,31,151,67,147,71,112,34"/>
+</map>

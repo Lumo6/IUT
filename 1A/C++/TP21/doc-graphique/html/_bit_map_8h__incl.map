@@ -1,0 +1,11 @@
+<map id="BitMap.h" name="BitMap.h">
+<area shape="rect" id="Node000001" title="Définition de la classe CBitMap." alt="" coords="183,5,256,32"/>
+<area shape="rect" id="Node000002" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="5,80,114,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,35,102,76,100,71,191,30"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="138,80,301,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,33,222,64,217,64,217,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="325,80,381,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="244,30,318,70,315,75,241,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,155,105,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="62,107,62,139,57,139,57,107"/>
+</map>

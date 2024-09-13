@@ -1,0 +1,38 @@
+<map id="TP.h" name="TP.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CTP." alt="" coords="242,5,290,32"/>
+<area shape="rect" id="Node000002" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="135,304,224,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,25,129,44,74,61,53,71,40,82,17,105,10,113,9,124,14,140,29,165,95,254,117,276,141,294,138,298,113,280,91,258,25,168,9,142,3,124,5,111,13,102,36,78,50,66,72,56,128,39,241,20"/>
+<area shape="rect" id="Node000005" href="$_wall_8h.html" title="Déclaration de la classe CWall." alt="" coords="288,80,346,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="277,31,302,66,297,69,273,34"/>
+<area shape="rect" id="Node000007" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="333,229,383,256"/>
+<area shape="poly" id="edge21_Node000001_Node000007" title=" " alt="" coords="292,23,339,41,363,57,382,79,389,96,394,114,393,151,385,187,373,216,368,214,380,185,388,151,388,114,384,97,377,81,360,61,337,46,290,28"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="241,229,310,256"/>
+<area shape="poly" id="edge22_Node000001_Node000010" title=" " alt="" coords="292,26,329,46,347,60,360,79,367,98,368,118,363,138,355,157,331,192,304,220,300,217,327,189,350,154,358,136,362,118,362,99,356,81,343,64,326,50,289,31"/>
+<area shape="rect" id="Node000013" href="$_mech_clock_8h.html" title="Déclaration de la classe CMechClock." alt="" coords="167,80,264,107"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="259,34,235,69,231,66,255,31"/>
+<area shape="rect" id="Node000014" href="$_auto_clock_8h.html" title="Déclaration de la classe CAutoClock." alt="" coords="51,80,143,107"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="242,33,142,76,139,71,240,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="54,379,107,405"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="164,333,111,372,108,367,161,329"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="144,379,215,405"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="182,331,182,363,177,363,177,331"/>
+<area shape="rect" id="Node000006" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="105,155,171,181"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="288,109,185,151,183,146,286,104"/>
+<area shape="poly" id="edge14_Node000005_Node000007" title=" " alt="" coords="323,106,353,214,348,215,318,108"/>
+<area shape="poly" id="edge16_Node000005_Node000010" title=" " alt="" coords="316,108,286,215,280,214,311,106"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="194,155,245,181"/>
+<area shape="poly" id="edge15_Node000005_Node000012" title=" " alt="" coords="301,109,250,148,247,143,298,105"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="152,180,168,202,181,229,186,259,186,289,180,289,181,260,176,230,163,205,148,184"/>
+<area shape="poly" id="edge12_Node000006_Node000003" title=" " alt="" coords="127,184,110,204,95,230,86,265,81,301,81,363,76,363,76,300,80,264,90,228,105,201,123,180"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="172,178,319,226,318,231,171,183"/>
+<area shape="poly" id="edge11_Node000006_Node000010" title=" " alt="" coords="163,180,239,219,237,224,161,184"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="105,229,166,256"/>
+<area shape="poly" id="edge13_Node000006_Node000011" title=" " alt="" coords="140,182,139,214,134,214,135,182"/>
+<area shape="poly" id="edge10_Node000007_Node000002" title=" " alt="" coords="334,257,225,300,223,295,332,252"/>
+<area shape="rect" id="Node000008" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="304,304,412,331"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="361,257,361,288,355,288,355,257"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="312,379,404,405"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="361,331,361,363,355,363,355,331"/>
+<area shape="poly" id="edge18_Node000013_Node000006" title=" " alt="" coords="204,109,164,146,161,142,200,105"/>
+<area shape="poly" id="edge20_Node000014_Node000006" title=" " alt="" coords="106,106,126,140,121,143,102,109"/>
+</map>

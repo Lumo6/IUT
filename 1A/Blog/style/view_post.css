@@ -1,0 +1,211 @@
+/* Réinitialisation et styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Ajout d'espace au-dessus du conteneur */
+}
+
+.post-title-container {
+    margin-bottom: 20px; /* Ajout d'espace au-dessous du conteneur du titre */
+}
+
+h1, h2, h3 {
+    color: #ff9800;
+    text-align: center;
+}
+
+p {
+    color: #f0f0f0;
+}
+
+a {
+    color: #ff9800;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e68900;
+}
+
+.post-content, .comments-section, .add-comment {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.comment {
+    background-color: #555;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 5px 0;
+}
+
+.comment form {
+    display: inline;
+    margin-left: 10px;
+}
+
+.comment form button {
+    background: none;
+    border: none;
+    color: #ff9800;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.comment form button:hover {
+    text-decoration: underline;
+    color: #e68900;
+}
+
+.add-comment label, .add-comment textarea, .add-comment button {
+    width: 100%; /* S'assurer que tous les éléments prennent toute la largeur */
+    display: block; /* S'assurer que tous les éléments sont des blocs */
+    box-sizing: border-box; /* Inclure le padding et la bordure dans la largeur */
+}
+
+.add-comment label {
+    margin-top: 10px; /* Espace au-dessus du label */
+}
+
+.add-comment textarea {
+    padding: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: #2b2b2b;
+    color: #f0f0f0;
+    margin-top: 10px;
+}
+
+.add-comment button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.add-comment button:hover {
+    background-color: #e68900;
+}
+
+button.delete-post {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Ajout d'espace sous le bouton de suppression */
+}
+
+button.delete-post:hover {
+    background-color: #c82333;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+.footer a {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #1a1a1a;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer a:hover {
+    background-color: #e68900;
+}
+
+/* Styles pour les boutons Modifier, Supprimer et Enregistrer dans les commentaires */
+.comment .comment-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.comment .edit-comment-button,
+.comment .delete-comment-button,
+.comment .save-comment-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff9800;
+    color: #1a1a1a;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.comment .edit-comment-button:hover,
+.comment .delete-comment-button:hover,
+.comment .save-comment-button:hover {
+    background-color: #e68900;
+}
+
+.comment .edit-comment-button {
+    display: inline-block; /* Assure que le bouton Modifier est en ligne */
+}
+
+.comment form {
+    display: flex; /* Utilise un flex container pour les boutons Modifier et Supprimer */
+    align-items: center; /* Alignement vertical */
+}
+
+.comment form .form-buttons {
+    display: flex;
+    gap: 10px; /* Espacement entre les boutons */
+}
+
+.comment form .save-comment-button {
+    margin-left: 0; /* Enlever le margin-left des boutons dans le formulaire */
+}
+
+.comment .delete-comment-button {
+    align-items: end;
+}

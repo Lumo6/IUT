@@ -1,0 +1,34 @@
+<map id="TP.cpp" name="TP.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CTP." alt="" coords="483,5,545,32"/>
+<area shape="rect" id="Node000002" href="$stdafx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="289,80,360,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="483,35,373,77,371,72,481,30"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="394,80,455,107"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="500,35,454,72,450,68,497,30"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="480,80,548,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="517,33,517,64,511,64,511,33"/>
+<area shape="rect" id="Node000011" href="$_t_p_8h.html" title="Déclaration de la classe CTP." alt="" coords="651,80,700,107"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="543,30,638,72,636,77,541,35"/>
+<area shape="rect" id="Node000013" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="511,229,619,256"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="530,31,548,52,563,79,572,115,575,151,572,214,566,214,570,151,567,116,558,81,544,55,525,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="289,107,102,155,101,150,288,101"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,155,174,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="294,110,189,151,187,146,292,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,155,266,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="310,109,261,147,258,143,307,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="290,155,360,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="327,107,327,139,322,139,322,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="384,155,463,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="343,105,396,143,393,148,340,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="487,155,549,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="359,105,474,147,472,152,357,110"/>
+<area shape="rect" id="Node000012" href="$_bit_map_8h.html" title="Définition de la classe CBitMap." alt="" coords="667,155,740,181"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="683,106,696,139,691,141,678,108"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="680,184,604,224,601,219,678,180"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="644,229,806,256"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="710,181,719,214,714,215,704,183"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="830,229,886,256"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="731,179,818,220,816,225,729,184"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="519,304,610,331"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="567,257,567,288,562,288,562,257"/>
+</map>

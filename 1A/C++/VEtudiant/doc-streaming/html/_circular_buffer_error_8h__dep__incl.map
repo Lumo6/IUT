@@ -1,0 +1,9 @@
+<map id="CircularBufferError.h" name="CircularBufferError.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CCircularBufferError." alt="" coords="89,5,226,32"/>
+<area shape="rect" id="Node000002" href="$_circular_buffer_8h.html" title="Déclaration de la classe CCircularBuffer." alt="" coords="25,80,135,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,45,95,82,91,78,131,41"/>
+<area shape="rect" id="Node000004" href="$_circular_buffer_error_8cpp.html" title="Définition de la classe CCircularBufferError." alt="" coords="159,80,310,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,41,223,78,220,82,180,45"/>
+<area shape="rect" id="Node000003" href="$_t_p_0123_01-_01streaming_8cpp.html" title="Programme principal de la simulation de streaming." alt="" coords="5,155,155,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="83,122,83,154,77,154,77,122"/>
+</map>

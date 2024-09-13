@@ -1,0 +1,164 @@
+=====
+= B =
+=====
+
+> 1. Il y a des énums, ce qu'il veut dire que pour ajouter une difficulté ou une catégorie, il faut changer la table recette. Ceci peut-être très lourd si il y a beaucoup d'enregistrement. La solution plus souple serait de créer une table pour les champs difficulté et catégorie.
+
+> 2. Actuellement, le coup de la recette est compris entre 1 et 10. Il aurait fallu que le coup de la recette soit calculé via les ingrédients ou de mettre le coût de l'ingrédient dans la table composer.
+
+> 3. Car ID_User et ID_Recette sont des clés primaires donc qu'un seul enregistrement. Il faudrait ajouter un trigger permettant de mettre à jour la date de consultation. Ici, la date de consultation est la date de la toute première consultation.
+
+> 4. Oui car il n'y a pas de trigger qu'il l'en interdit. Ajouter un trigger qui regarde l'ID de la recette, récupère son créateur et le compare avec celui-ci qui commente.
+
+> 5. Oui il peut car ID_COM est la clé primaire.
+
+> 6. Non cela n'est pas vérifié. Il faudrait mettre un trigger.
+
+
+
+
+=======
+= III =
+=======
+
+=====
+= A =
+=====
+
+SELECT COUNT(c.ID_Recette) AS Recette
+FROM consulter AS c
+GROUP BY c.ID_Recette
+ORDER BY COUNT(c.ID_Recette) DESC
+LIMIT 1;
+
+
+SELECT u.Username
+FROM utilisateurs AS u
+WHERE u.Statut = "VIP" AND DATEDIFF(CURRENT_TIMESTAMP, u.Date_abo) > 11*30;
+
+
+SELECT u.Uste, COUNT(n.ID_Uste) AS "Nombre de fois utilisé(s)"
+FROM necessiter AS n
+JOIN ustensiles AS u ON u.ID_Uste = n.ID_Uste
+GROUP BY n.ID_Uste
+ORDER BY COUNT(n.ID_Uste) DESC;
+
+
+SELECT COUNT(n.ID_Uste) / COUNT(DISTINCT n.ID_Recette) AS "Nombre moyen d'ustensiles"
+FROM 
+	necessiter AS n
+
+
+SELECT COUNT(n.ID_Uste) / COUNT(DISTINCT n.ID_Recette) AS "Nombre moyen d'ustensiles"
+FROM necessiter AS n
+INNER JOIN recettes AS r ON r.ID_Recette = n.ID_Recette
+INNER JOIN utilisateurs AS u ON u.ID_User = r.ID_User
+WHERE u.Statut = 'CHEF'
+
+
+SELECT COUNT(r.Categorie) AS "Catégorie"
+FROM consulter AS c
+INNER JOIN recettes AS r ON r.ID_Recette = c.ID_Recette
+GROUP BY r.Categorie
+ORDER BY COUNT(r.Categorie) DESC
+LIMIT 1;
+
+
+SELECT r.Categorie AS "Catégorie", COUNT(r.ID_Recette)
+FROM consulter AS c
+INNER JOIN recettes AS r ON r.ID_Recette = c.ID_Recette
+GROUP BY r.Categorie
+ORDER BY COUNT(r.ID_Recette) DESC
+LIMIT 1;
+
+
+SELECT SUM(u.Statut="VIP") / COUNT(u.ID_User)
+FROM utilisateurs AS u
+
+
+SELECT r.ID_Recette, u.Username
+FROM (
+	SELECT c.ID_Recette AS Recette, COUNT(c.ID_Recette)
+    FROM consulter AS c
+    GROUP BY c.ID_Recette
+    ORDER BY COUNT(c.ID_Recette) DESC
+    LIMIT 10
+	) AS Ss_rq, 
+    recettes AS r
+JOIN utilisateurs AS u ON u.ID_User = r.ID_User
+WHERE r.ID_Recette = Ss_rq.Recette
+
+
+SELECT i.Ingr, c.Quantite*2 AS "2 personnes", c.Quantite*4 AS "4 Personnes",  c.Quantite*10 AS "10 personnes"
+FROM recettes AS r
+JOIN composer AS c ON c.ID_Recette = r.ID_Recette
+JOIN ingredients AS i ON i.ID_Ingr = c.ID_Ingr
+WHERE r.ID_Recette = 3
+
+
+SELECT c.ID_Recette AS Recette, COUNT(c.ID_Recette)
+FROM consulter AS c
+WHERE DATEDIFF(CURRENT_TIMESTAMP, c.DateConsultation) < 30
+GROUP BY c.ID_Recette
+ORDER BY COUNT(c.ID_Recette) DESC
+LIMIT 10
+
+
+DROP VIEW IF EXISTS RecettesLesMoinsCheres ;
+CREATE VIEW RecettesLesMoinsCheres AS
+SELECT *
+FROM Recettes R, CoutMoyenRecettes CMR
+WHERE CMR.CMrecettes >= R.cout;
+
+
+SELECT *
+FROM consulter AS c
+JOIN recettes AS r ON r.ID_Recette = c.ID_Recette
+WHERE r.Categorie IN (
+	SELECT RLMC.Categorie
+    FROM recetteslesmoinscheres AS RLMC
+)
+
+
+DROP VIEW IF EXISTS categoriefavorieutilisateur;
+CREATE VIEW categoriefavorieutilisateur AS
+SELECT r.Categorie
+FROM recettes AS r
+JOIN consulter AS c ON c.ID_Recette = r.ID_Recette
+WHERE c.ID_User = 7 AND c.Favoris = '1';
+SELECT * FROM categoriefavorieutilisateur
+
+
+SELECT *
+FROM recettes AS r
+WHERE 
+    r.ID_Recette NOT IN (
+	SELECT c.ID_Recette
+    FROM consulter AS c
+    WHERE c.ID_User = 7
+)
+
+
+SELECT *
+FROM recettes AS r
+JOIN categoriefavorieutilisateur AS CFU ON CFU.Categorie = r.Categorie
+WHERE 
+    r.ID_Recette NOT IN (
+	SELECT c.ID_Recette
+    FROM consulter AS c
+    WHERE c.ID_User = 7
+)
+
+Marche pas car recette avec un cout de 11.
+
+UPDATE Recettes R SET cout=10 WHERE R.ID_Recette=1;
+OU
+ALTER TABLE Recettes ADD CONSTRAINT VerifierCoutRecette CHECK (cout BETWEEN 1 and 11); 
+
+ALTER TABLE Recettes ALTER cout SET DEFAULT 0;
+
+-> Favori, note, catégorie, ingrédients, culture, date d'abonnements
+
+
+INSERT INTO commenter VALUES (100101, 7, 2, "Oui"); -> Oui on peut
+INSERT INTO consulter VALUES (1, 2, 5, 1, 2023-09-13); -> Oui on peut

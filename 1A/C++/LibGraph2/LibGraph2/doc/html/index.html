@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LibGraph 2: LibGraph 2</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">LibGraph 2<span id="projectnumber">&#160;2.0</span>
+   </div>
+   <div id="projectbrief">Bibliothèque graphique simplifiée</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.6 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',false,false,'search.php','Recherche');
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div><div class="header">
+  <div class="headertitle"><div class="title">LibGraph 2 </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Table des matières</h3>
+<ul><li class="level1"><a href="#Intrp">Introduction</a><ul><li class="level2"><a href="#Pres">Présentation</a></li>
+<li class="level2"><a href="#Levels">Niveaux d&#39;utilisation</a></li>
+</ul>
+</li>
+<li class="level1"><a href="#install">Installation</a><ul><li class="level2"><a href="#projectcreation">Création du projet Visual Studio</a></li>
+<li class="level2"><a href="#filecopy">Copie des fichiers</a></li>
+<li class="level2"><a href="#projectsetup">Configuration du projet</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="Intrp"></a>
+Introduction</h1>
+<h2><a class="anchor" id="Pres"></a>
+Présentation</h2>
+<p>LibGraph 2 est une bibliothèque graphique simplifiée. Elle permet par un jeu de fonctionnalités d'afficher une fenêtre graphique et d'y afficher différentes formes. </p><div class="image">
+<img src="mainpage.png" alt=""/>
+<div class="caption">
+Capture d'écran d'un logiciel entièrement développé à l'aide de LibGraph 2</div></div>
+ <h2><a class="anchor" id="Levels"></a>
+Niveaux d'utilisation</h2>
+<p>La bibliothèque s'adapte au niveau d'expérience de l'utilisateur selon 5 niveaux (Cliquez sur l'une des descriptions pour accéder à la documentation du niveau) : </p><ul>
+<li><b>NIVEAU</b> <b>0</b> : <em>Novice</em> : <a href="../../doc-0/html/index.html">Aucun pointeur, aucun objet, pas de passage par référence, seulement des appels de fonctions</a> </li>
+<li><b>NIVEAU</b> <b>1</b> : <em>Débutant</em> : <a href="../../doc-1/html/index.html">Des passages par références, pas de pointeurs, pas d'objet</a> </li>
+<li><b>NIVEAU</b> <b>2</b> : <em>Intermédiaire</em> : <a href="../../doc-2/html/index.html">Des passages par références, des pointeurs, pas d'objet</a> </li>
+<li><b>NIVEAU</b> <b>3</b> : <em>Avancé</em> : <a href="../../doc-3/html/index.html">Quelques objets</a> </li>
+<li><b>NIVEAU</b> <b>4</b> : <em>Expert</em> : <a href="../../doc-4/html/index.html">(niveau par défaut) Tout objet</a></li>
+</ul>
+<h1><a class="anchor" id="install"></a>
+Installation</h1>
+<p>Quelque soit le niveau d'expérience choisi, l'installation de la bibliothèque suit toujours la même procédure : </p>
+<h2><a class="anchor" id="projectcreation"></a>
+Création du projet Visual Studio</h2>
+<p>Créez un nouveau projet C++ Visual Studio de type <b>Projet</b> <b>vide</b> pour la plateforme Windows : </p><div class="image">
+<img src="create-project.png" alt=""/>
+</div>
+ <h2><a class="anchor" id="filecopy"></a>
+Copie des fichiers</h2>
+<ul>
+<li>Copier les répertoires <code>lib</code> (qui se trouve dans le sous répertoire <code>v142</code> ) et <code>inc</code> dans le répertoire de votre projet (à côté du fichier <code>*</code>.vcxproj). </li>
+<li>Copier les fichiers <code>lib\Release\LibGraph2.dll</code> et <code>lib\Debug\LibGraph2.dll</code> respectivement dans les répertoires <code>x64\Release</code> et <code>x64\Debug</code> de votre solution : <dl class="section note"><dt>Note</dt><dd>Les répertoires <code>x64\Debug</code> et <code>x64\Release</code> sont les répertoires où votre programme exécutable sera créé. Ces répertoires sont créés lors de la compilation. Comme vous n'avez pas encore compilé votre projet, ils n'existent probablement pas. Vous devez donc les créer vous-même.</dd></dl>
+<div class="image">
+<img src="install-1.png" alt=""/>
+<div class="caption">
+Organisation des fichiers</div></div>
+ </li>
+</ul>
+<h2><a class="anchor" id="projectsetup"></a>
+Configuration du projet</h2>
+<ul>
+<li>Ouvrir le gestionnaire de configuration (menu <b>Générer</b> / <b>Gestionnaire</b> <b>de</b> <b>configurations</b>...) puis dans la liste <b>Plateforme</b> <b>de</b> <b>la</b> <b>solution</b> <b>active</b>, choisissez &lt;Modifier...&gt; puis supprimez la plateforme x86 : <div class="image">
+<img src="projet-configurations.png" alt=""/>
+<div class="caption">
+Gestionnaire de configuration</div></div>
+ </li>
+<li>Ouvrir les propriétés du projet (Dans Visual Studio, faites un clic droit sur le projet puis Propriétés) </li>
+<li>Choisissez <b>"Toutes les configurations"</b> dans la liste déroulante <b>"Configuration :"</b> puis dans la page <b>"C/C++"</b> / <b>"Répertoire VC++"</b>, ajoutez <code>";$(ProjectDir)inc"</code> dans le champ <b>"Répertoires Include"</b> et <code><code>";$(ProjectDir)lib\$(Configuration)"</code> dans</code> le champs <b>"Répertoires de bibliothèques"</b> : <div class="image">
+<img src="projet-properties-1.png" alt=""/>
+</div>
+ </li>
+<li>Dans la page <b>"Editeur de liens"</b> / <b>"entrée"</b>, ajoutez <code>"LibGraph2.lib"</code> au champ <b>"Dépendances supplémentaires"</b> : <div class="image">
+<img src="projet-properties-3.png" alt=""/>
+</div>
+ </li>
+<li>Dans la page <b>"Editeur de liens"</b> / <b>"Système"</b>, définissez le <code>Sous-système</code> comme <b>"Windows (/SUBSYSTEM:WINDOWS)"</b> : <div class="image">
+<img src="subsystem-windows.png" alt=""/>
+</div>
+ </li>
+<li>Validez. --&gt; LibGraph2 est maintenant configuré pour votre projet. Choisissez maintenant un niveau d'utilisation pour un exemple de programme principal.  </li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré le Vendredi 24 Mars 2023 14:41:39 pour LibGraph 2 par&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
+</body>
+</html>

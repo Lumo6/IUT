@@ -1,0 +1,37 @@
+<map id="AutoClock.cpp" name="AutoClock.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CAutoClock." alt="" coords="320,5,426,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="196,80,267,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="349,35,271,75,268,70,347,30"/>
+<area shape="rect" id="Node000007" href="$_auto_clock_8h.html" title="Déclaration de la classe CAutoClock." alt="" coords="327,80,419,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="375,33,375,64,370,64,370,33"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="443,80,511,107"/>
+<area shape="poly" id="edge18_Node000001_Node000017" title=" " alt="" coords="392,30,448,69,445,73,389,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="200,110,93,151,92,146,198,105"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="110,155,174,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="217,109,171,147,168,143,214,105"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,155,266,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="234,107,234,139,229,139,229,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="290,155,351,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="249,105,295,143,292,147,245,109"/>
+<area shape="rect" id="Node000008" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="376,155,441,181"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="381,106,398,139,393,142,377,108"/>
+<area shape="rect" id="Node000009" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="317,304,407,331"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="401,183,386,205,374,230,367,260,365,289,359,288,362,259,369,228,382,202,396,180"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="253,379,306,405"/>
+<area shape="poly" id="edge16_Node000008_Node000010" title=" " alt="" coords="398,184,354,234,329,268,307,305,295,335,287,364,282,363,290,333,302,303,324,266,350,231,394,180"/>
+<area shape="rect" id="Node000012" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="384,229,433,256"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="411,182,411,214,406,214,406,182"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="457,229,526,256"/>
+<area shape="poly" id="edge15_Node000008_Node000015" title=" " alt="" coords="425,180,467,217,464,221,421,184"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="549,229,610,256"/>
+<area shape="poly" id="edge17_Node000008_Node000016" title=" " alt="" coords="439,179,536,220,534,225,437,184"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="349,333,307,370,303,366,346,329"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="330,379,402,405"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="365,331,367,363,362,363,360,331"/>
+<area shape="poly" id="edge14_Node000012_Node000009" title=" " alt="" coords="403,258,380,292,376,290,398,255"/>
+<area shape="rect" id="Node000013" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="431,304,539,331"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="424,255,463,291,459,295,420,258"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="439,379,530,405"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="487,331,487,363,482,363,482,331"/>
+</map>

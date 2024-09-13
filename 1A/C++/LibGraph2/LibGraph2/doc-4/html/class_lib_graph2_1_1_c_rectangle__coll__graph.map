@@ -1,0 +1,5 @@
+<map id="LibGraph2::CRectangle" name="LibGraph2::CRectangle">
+<area shape="rect" id="node1" title="Classe utilitaire de gestion d&#39;un rectangle." alt="" coords="66,93,222,119"/>
+<area shape="rect" id="node2" href="$class_lib_graph2_1_1_c_point.html" title="Classe utilitaire de gestion d&#39;un point." alt="" coords="5,5,133,31"/>
+<area shape="rect" id="node3" href="$class_lib_graph2_1_1_c_size.html" title="Classe utilitaire de gestion d&#39;une taille." alt="" coords="158,5,282,31"/>
+</map>

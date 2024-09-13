@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.6"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>LibGraph 2 - Niveau 2: LibGraph2::beginPaint</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">LibGraph 2 - Niveau 2<span id="projectnumber">&#160;2.0</span>
+   </div>
+   <div id="projectbrief">Bibliothèque graphique simplifiée</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.9.6 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('group___drawing_management_ga9ba5eb5e506eb55d740562e6b84d5b71.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="contents">
+<a id="ga9ba5eb5e506eb55d740562e6b84d5b71" name="ga9ba5eb5e506eb55d740562e6b84d5b71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga9ba5eb5e506eb55d740562e6b84d5b71">&#9670;&#160;</a></span>beginPaint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LIBGRAPH2_API void LibGraph2::beginPaint </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>L'appel de cette fonction permet d'activer le backbuffer. A partir de cet appel, les fonctions de dessins ne s'exécuteront plus directement sur la fenêtre mais dans une mémoire tampon (le backbuffer) de même taille que la fenêtre. L'affichage dans la fenetre sera ensuite réalisé lors de l'appel de la fonction <a class="el" href="group___drawing_management_gae5634949baff16d0058a53c9b1ea46ad.html#gae5634949baff16d0058a53c9b1ea46ad" title="Recopie le contenu du backbuffer dans la fenêtre graphique.">endPaint()</a> qui copie le contenu du backbuffer dans la fenêtre. Si la fonction <a class="el" href="group___drawing_management_gae5634949baff16d0058a53c9b1ea46ad.html#gae5634949baff16d0058a53c9b1ea46ad" title="Recopie le contenu du backbuffer dans la fenêtre graphique.">endPaint()</a> n'est pas appelée en fin de dessin, alors rien ne sera affiché à l'écran.<br  />
+Le code suivant est un exemple d'affichage utilisant la technique du backbuffer :</p>
+<div class="fragment"><div class="line"><span class="keywordflow">switch</span>(type)  <span class="comment">//En fonction du type d&#39;événement</span></div>
+<div class="line">{</div>
+<div class="line"><span class="keywordflow">case</span> <a class="code hl_enumvalue" href="group___event_management_ga00b504b0a344b28cf9e1774665f54a39.html#gga00b504b0a344b28cf9e1774665f54a39ad8923ff4ea27f5c2a03b13ed2fb268eb">evt_type::evtRefresh</a>:  <span class="comment">//Raffraichissement de l&#39;affichage (tout redessiner)</span></div>
+<div class="line">  <a class="code hl_function" href="group___drawing_management_ga9ba5eb5e506eb55d740562e6b84d5b71.html#ga9ba5eb5e506eb55d740562e6b84d5b71">beginPaint</a>(); <span class="comment">//Active le backbuffer</span></div>
+<div class="line">    <span class="comment">//Utiliser ici les fonctions de dessins</span></div>
+<div class="line">  <a class="code hl_function" href="group___drawing_management_gae5634949baff16d0058a53c9b1ea46ad.html#gae5634949baff16d0058a53c9b1ea46ad">endPaint</a>();   <span class="comment">//Recopie le contenu du backbuffer dans la fenêtre</span></div>
+<div class="line">  <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="comment">//autres événements</span></div>
+<div class="line">}</div>
+<div class="ttc" id="agroup___drawing_management_ga9ba5eb5e506eb55d740562e6b84d5b71_html_ga9ba5eb5e506eb55d740562e6b84d5b71"><div class="ttname"><a href="group___drawing_management_ga9ba5eb5e506eb55d740562e6b84d5b71.html#ga9ba5eb5e506eb55d740562e6b84d5b71">LibGraph2::beginPaint</a></div><div class="ttdeci">LIBGRAPH2_API void beginPaint()</div><div class="ttdoc">Active le backbuffer.</div></div>
+<div class="ttc" id="agroup___drawing_management_gae5634949baff16d0058a53c9b1ea46ad_html_gae5634949baff16d0058a53c9b1ea46ad"><div class="ttname"><a href="group___drawing_management_gae5634949baff16d0058a53c9b1ea46ad.html#gae5634949baff16d0058a53c9b1ea46ad">LibGraph2::endPaint</a></div><div class="ttdeci">LIBGRAPH2_API void endPaint()</div><div class="ttdoc">Recopie le contenu du backbuffer dans la fenêtre graphique.</div></div>
+<div class="ttc" id="agroup___event_management_ga00b504b0a344b28cf9e1774665f54a39_html_gga00b504b0a344b28cf9e1774665f54a39ad8923ff4ea27f5c2a03b13ed2fb268eb"><div class="ttname"><a href="group___event_management_ga00b504b0a344b28cf9e1774665f54a39.html#gga00b504b0a344b28cf9e1774665f54a39ad8923ff4ea27f5c2a03b13ed2fb268eb">LibGraph2::evt_type::evtRefresh</a></div><div class="ttdeci">@ evtRefresh</div><div class="ttdoc">Raffraichissement de toute la fenêtre.</div></div>
+</div><!-- fragment --> <dl class="section remark"><dt>Remarques</dt><dd>Il est très avantageux d'utiliser cette fonctionnalité qui accélère énormément l'affichage et évite les effets de scintillement qui peuvent provenir lors d'un affichage direct à l'écran.</dd></dl>
+<dl class="section see"><dt>Voir également</dt><dd>Fonction : <a class="el" href="group___drawing_management_gae5634949baff16d0058a53c9b1ea46ad.html#gae5634949baff16d0058a53c9b1ea46ad" title="Recopie le contenu du backbuffer dans la fenêtre graphique.">endPaint()</a> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_lib_graph2.html">LibGraph2</a></li>
+    <li class="footer">Généré le Vendredi 24 Mars 2023 14:41:50 pour LibGraph 2 - Niveau 2 par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
+</body>
+</html>

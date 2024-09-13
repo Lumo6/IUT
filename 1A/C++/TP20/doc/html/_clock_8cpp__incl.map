@@ -1,0 +1,40 @@
+<map id="Clock.cpp" name="Clock.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CClock." alt="" coords="496,5,575,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="189,80,261,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="496,32,276,83,275,78,495,27"/>
+<area shape="rect" id="Node000007" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="459,80,524,107"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="530,34,509,68,505,65,526,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="413,304,466,331"/>
+<area shape="poly" id="edge18_Node000001_Node000009" title=" " alt="" coords="504,35,473,54,459,66,448,81,437,107,430,135,424,193,428,246,435,289,430,290,423,247,419,193,424,134,432,106,444,79,455,63,470,49,502,30"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="549,80,613,107"/>
+<area shape="poly" id="edge17_Node000001_Node000016" title=" " alt="" coords="546,31,567,65,563,68,541,34"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="637,80,706,107"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="560,30,636,70,633,75,558,35"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="730,80,797,107"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="576,30,716,74,715,79,574,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="184,155,266,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="228,107,228,139,222,139,222,107"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="289,155,353,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="243,105,294,143,290,147,240,109"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,155,74,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="194,110,87,151,85,146,192,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="98,155,160,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="210,109,159,147,156,143,207,105"/>
+<area shape="rect" id="Node000008" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="480,229,570,256"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="497,107,521,214,516,215,492,108"/>
+<area shape="poly" id="edge15_Node000007_Node000009" title=" " alt="" coords="491,108,448,289,443,288,486,107"/>
+<area shape="rect" id="Node000011" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="706,155,755,181"/>
+<area shape="poly" id="edge10_Node000007_Node000011" title=" " alt="" coords="525,102,691,151,690,156,524,107"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="529,155,598,181"/>
+<area shape="poly" id="edge14_Node000007_Node000014" title=" " alt="" coords="506,105,542,142,539,145,502,109"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="621,155,682,181"/>
+<area shape="poly" id="edge16_Node000007_Node000015" title=" " alt="" coords="520,105,611,145,609,150,518,110"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="512,259,467,296,464,292,508,255"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="491,304,562,331"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="528,256,528,288,523,288,522,257"/>
+<area shape="poly" id="edge13_Node000011_Node000008" title=" " alt="" coords="706,181,576,226,574,221,704,176"/>
+<area shape="rect" id="Node000012" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="676,229,784,256"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="733,182,733,214,728,214,728,182"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="685,304,776,331"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="733,257,733,288,728,288,728,257"/>
+</map>

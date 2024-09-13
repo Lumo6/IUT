@@ -1,0 +1,5 @@
+<map id="Fonctionnalités graphiques" name="Fonctionnalités graphiques">
+<area shape="rect" id="node1" href="$group___drawing.html" title="Contient toutes les fonctionnalités permettant d&#39;afficher des informations." alt="" coords="231,5,405,31"/>
+<area shape="rect" id="node2" href="$group___drawing_management.html" title="Contient toutes les fonctionnalités gérant l&#39;optimisation de l&#39;affichage." alt="" coords="245,55,391,80"/>
+<area shape="rect" id="node3" title="Contient toutes les fonctionnalités permettant de dessiner." alt="" coords="5,31,183,56"/>
+</map>

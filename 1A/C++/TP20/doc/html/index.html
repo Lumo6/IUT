@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TP 20 - Contrôle - Polymorphisme: TP08 – Contrôle sur le polymorphisme \n Horlogerie</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["tex2jax.js"],
+  jax: ["input/TeX","output/HTML-CSS"],
+});
+</script>
+<script type="text/javascript" async="async" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="cpp_logo-small.png"/></td>
+  <td id="projectalign">
+   <div id="projectname">TP 20 - Contrôle - Polymorphisme<span id="projectnumber">&#160;2020</span>
+   </div>
+   <div id="projectbrief">Horlogerie</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('index.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Chargement...</div>
+<div class="SRStatus" id="Searching">Recherche...</div>
+<div class="SRStatus" id="NoMatches">Aucune correspondance</div>
+</div>
+</div>
+</div>
+</div>
+
+<div><div class="header">
+  <div class="headertitle"><div class="title">TP08 – Contrôle sur le polymorphisme <br  />
+ Horlogerie </div></div>
+</div><!--header-->
+<div class="contents">
+<div class="toc"><h3>Table des matières</h3>
+<ul><li class="level1"><a href="#sec0">Exercice 0 Présentation</a><ul><li class="level2"><a href="#sec0_1">0.1 Objectifs du programme</a></li>
+<li class="level2"><a href="#sec0_2">0.2 Présentation de la structure du programme</a><ul><li class="level3"><a href="#sec0_2_1">0.2.1 La classe CTP (fichiers TP.h et TP.cpp)</a></li>
+<li class="level3"><a href="#sec0_2_2">0.2.2 La classe CGUI (fichiers gui.h et gui.cpp)</a></li>
+<li class="level3"><a href="#sec0_2_3">0.2.3 La classe CWall (fichiers Wall.h et Wall.cpp)</a></li>
+<li class="level3"><a href="#sec0_2_4">0.2.4 La classe CClock (fichiers Clock.h et Clock.cpp)</a></li>
+<li class="level3"><a href="#sec0_2_5">0.2.5 La classe CAutoClock (fichiers AutoClock.h et AutoClock.cpp)</a></li>
+<li class="level3"><a href="#sec0_2_6">0.2.6 La classe CMechClock (fichiers MechClock.h et MechClock.cpp)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#sec1">Exercice 1 Travail à réaliser</a><ul><li class="level2"><a href="#sec1_1">1.1 La hiérarchie de classes CClock, CAutoClock et CMechClock.</a></li>
+<li class="level2"><a href="#sec1_2">1.2 La classe CAutoClock</a></li>
+<li class="level2"><a href="#sec1_3">1.3 La classe CMechClock</a><ul><li class="level3"><a href="#sec1_3_1">1.3.1 Spécialisation de la classe CMechClock</a></li>
+<li class="level3"><a href="#sec1_3_2">1.3.2   Affichage des informations spécialisées de la classe CMechClock</a></li>
+<li class="level3"><a href="#sec1_3_3">1.3.3   Retendre le ressort de l’horloge mécanique</a></li>
+<li class="level3"><a href="#sec1_3_4">1.3.4   Arrêt des horloges mécaniques quand leur ressort est détendu</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level1"><a href="#sec2">Exercice 2        Remettez votre travail sur le cours en ligne</a></li>
+</ul>
+</div>
+<div class="textblock"><h1><a class="anchor" id="sec0"></a>
+Exercice 0 Présentation</h1>
+<h2><a class="anchor" id="sec0_1"></a>
+0.1 Objectifs du programme</h2>
+<div class="image">
+<img src="capture.png" alt=""/>
+<div class="caption">
+Capture d'écran de l'application</div></div>
+<p>Il s’agit d’une représentation d’un mur sur lequel il est possible d'accrocher des horloges. Une horloge générique est caractérisée par son décalage horaire par rapport au temps universel (UTC). Plus spécifiquement, les horloges peuvent être de deux types : des horloges électroniques et des horloges mécaniques.</p>
+<p>Les horloges mécaniques ont la particularité d'être mues par l'énergie emmagasinée dans un ressort. A chaque tic d'horloge, le ressort se détend un peu plus jusqu'à l'être totalement. L'horloge s'arrête alors. Il est alors nécessaire de "remonter" régulièrement l'horloge de façon à retendre le ressort pour lui redonner de l'énergie. A l'affichage, un arc de cercle coloré entourant l'horloge symbolise l'énergie restante dans le ressort.</p>
+<p>Les horloges électroniques sont quant à elles totalement automatiques. Elles disposent d'une quantité d'énergie considérée infinie, elles ne cessent donc jamais de fonctionner.</p>
+<p>Les horloges sont alors accrochées sur le mur et peuvent être sélectionnées pour afficher leurs caractéristiques. Des représentations d'horloges sont affichées en haut à gauche de la fenêtre. Lors d’un clic sur l’une d’elles, une horloge du même type est créée et peut alors être placée à l’aide de la souris sur le mur. Les horloges qui sont sur le mur peuvent être sélectionnées à la souris pour afficher leurs caractéristiques détaillées en haut au milieu de la fenêtre. Si l'horloge sélectionnée est une horloge mécanique, alors on peut la remonter en appuyant sur la touche ‘<code>R’</code>.</p>
+<h2><a class="anchor" id="sec0_2"></a>
+0.2 Présentation de la structure du programme</h2>
+<p>Le schéma suivant représente le diagramme de classe du programme.</p>
+<div class="image">
+<img src="classdiag.png" alt=""/>
+<div class="caption">
+Diagramme de classes du programme</div></div>
+<h3><a class="anchor" id="sec0_2_1"></a>
+0.2.1 La classe CTP (fichiers TP.h et TP.cpp)</h3>
+<p>Le programme s’articule autour d’un objet de type <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a> dont les méthodes sont appelées par le programme principal en fonction des actions de l’utilisateur. Cette classe gère le mur, crée les horloges à accrocher et les manipule.</p>
+<h3><a class="anchor" id="sec0_2_2"></a>
+0.2.2 La classe CGUI (fichiers gui.h et gui.cpp)</h3>
+<p>L’interface graphique utilisateur est gérée par cette classe. Toutes les fonctionnalités de LibGraph2 sont encapsulées dans cette unique classe. Les objets « clients » de cette classe (l’objet de type <a class="el" href="class_c_t_p.html" title="Classe &quot;métier&quot; du TP.">CTP</a>, le mur de type <a class="el" href="class_c_wall.html" title="Classe représentant un mur.">CWall</a> et les horloges de type <a class="el" href="class_c_clock.html" title="Classe représentant une horloge.">CClock</a>) l’utilisent pour s’afficher.</p>
+<h3><a class="anchor" id="sec0_2_3"></a>
+0.2.3 La classe CWall (fichiers Wall.h et Wall.cpp)</h3>
+<p>La classe <a class="el" href="class_c_wall.html" title="Classe représentant un mur.">CWall</a> représente un mur. Les horloges sont associées au mur par des pointeurs intelligents dans le vecteur <a class="el" href="class_c_wall.html#a95a30265bed3ffae653cf49f9356f291" title="tableau de pointeur vers les horloges suspendues sur le mur">CWall::m_Clocks</a>. Ce vecteur de 40 pointeurs correspond aux 40 horloges qui peuvent être accrochées sur le mur (4 lignes et 10 colonnes).</p>
+<h3><a class="anchor" id="sec0_2_4"></a>
+0.2.4 La classe CClock (fichiers Clock.h et Clock.cpp)</h3>
+<p>Il s’agit de la classe centrale de ce programme. Elle gère une horloge au sens général, c’est-à-dire qu’elle a pour caractéristiques un décalage horaire et un point dans le temps universel. Cette classe est destinée à être dérivée en horloge électronique (<a class="el" href="class_c_auto_clock.html" title="Classe représentant une horloge électronique.">CAutoClock</a>) et en horloge mécanique (<a class="el" href="class_c_mech_clock.html" title="Classe représentant une horloge mécanique.">CMechClock</a>).</p>
+<h3><a class="anchor" id="sec0_2_5"></a>
+0.2.5 La classe CAutoClock (fichiers AutoClock.h et AutoClock.cpp)</h3>
+<p>Cette classe représente une horloge électronique. Elle ne diffère de l'horloge au sens générique que par le fait qu'il est possible de l'afficher.</p>
+<h3><a class="anchor" id="sec0_2_6"></a>
+0.2.6 La classe CMechClock (fichiers MechClock.h et MechClock.cpp)</h3>
+<p>Cette classe représente une horloge mécanique. En plus des caractéristiques générales des horloges, une horloge mécanique est caractérisée par l'énergie stockée dans son ressort moteur.</p>
+<h1><a class="anchor" id="sec1"></a>
+Exercice 1 Travail à réaliser</h1>
+<dl class="section note"><dt>Note</dt><dd>Le programme vous est fourni dans une version non compilable. Il doit l’être à l’issue de l’exercice <a class="el" href="#sec1_1">1.1</a></dd></dl>
+<h2><a class="anchor" id="sec1_1"></a>
+1.1 La hiérarchie de classes CClock, CAutoClock et CMechClock.</h2>
+<ul>
+<li>
+Rendez la classe <a class="el" href="class_c_clock.html" title="Classe représentant une horloge.">CClock</a> polymorphe avec les classes <a class="el" href="class_c_auto_clock.html" title="Classe représentant une horloge électronique.">CAutoClock</a> et <a class="el" href="class_c_mech_clock.html" title="Classe représentant une horloge mécanique.">CMechClock</a> pour permettre l’affichage correct des horloges. <ul>
+<li>
+Assurez-vous que la classe <a class="el" href="class_c_clock.html" title="Classe représentant une horloge.">CClock</a> ne soit pas instanciable. </li>
+</ul>
+</li>
+<li>
+Complétez les constructeurs des classes <a class="el" href="class_c_auto_clock.html" title="Classe représentant une horloge électronique.">CAutoClock</a> et <a class="el" href="class_c_mech_clock.html" title="Classe représentant une horloge mécanique.">CMechClock</a> pour les rendre fonctionnels. <ul>
+<li>
+A partir de ce point, le programme doit être compilable, mais non encore fonctionnel. </li>
+</ul>
+</li>
+<li>
+Complétez les fonctions <a class="el" href="class_c_t_p.html#a34936aa85134ebee805246ff6bbdee13" title="Crée une horloge mécanique.">CTP::CreateMechClock</a> et <a class="el" href="class_c_t_p.html#ab2c54e292c745bf217b336524c54296d" title="Crée une horloge électronique.">CTP::CreateAutoClock</a> pour créer les horloges. <ul>
+<li>
+Compilez et testez. Vous devriez pouvoir créer des horloges et les accrocher sur le mur. </li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="sec1_2"></a>
+1.2 La classe CAutoClock</h2>
+<ul>
+<li>
+Complétez la fonction <a class="el" href="class_c_auto_clock.html#a92e8734b63b3fda1c4505f70d804faa6" title="Affiche les infos détaillées de l&#39;horloge.">CAutoClock::AfficherInfos</a>. <ul>
+<li>
+Référez-vous aux commentaires du code. <ul>
+<li>
+Cette fonction est appelée par le biais de la fonction <a class="el" href="class_c_t_p.html#a142d6fbae44258936b506b9cd054d127" title="Affiche l&#39;ensemble des données du TP.">CTP::Afficher()</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+Compilez et testez. Vous devriez pouvoir voir les informations détaillées des horloges électroniques en haut au milieu de la fenêtre graphique. </li>
+</ul>
+<h2><a class="anchor" id="sec1_3"></a>
+1.3 La classe CMechClock</h2>
+<h3><a class="anchor" id="sec1_3_1"></a>
+1.3.1 Spécialisation de la classe CMechClock</h3>
+<ul>
+<li>
+Munissez la classe <a class="el" href="class_c_mech_clock.html" title="Classe représentant une horloge mécanique.">CMechClock</a> d'une nouvelle donnée membre : <ul>
+<li>
+Une donnée membre <code>m_nSpringTension</code> de type <code>unsigned</code> <code>int</code> pour stocker l'énergie disponible dans le ressort de l'horloge. <ul>
+<li>
+Cette valeur doit être initialisée à 60. </li>
+<li>
+Il est préférable d’utiliser une constante pour la valeur d’initialisation. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+Complétez le corps de la fonction <a class="el" href="class_c_mech_clock.html#ad4550e4ee062cae693dbb8d2c9fc3b77" title="Remonte l&#39;horloge en réinitialisant le membre CMechClock::m_nSpringTension.">CMechClock::TightenSpring</a>. </li>
+<li>
+Complétez le corps de la fonction <a class="el" href="class_c_mech_clock.html#acb177e748128906111de5c08c833cb07" title="Accesseur en lecture de la tension du ressort en pourcentage (compris entre 0 et 1).">CMechClock::GetSpringTension</a>. </li>
+</ul>
+<h3><a class="anchor" id="sec1_3_2"></a>
+1.3.2 Affichage des informations spécialisées de la classe CMechClock</h3>
+<ul>
+<li>
+Complétez la fonction <a class="el" href="class_c_mech_clock.html#a92e8734b63b3fda1c4505f70d804faa6" title="Affiche les infos détaillées de l&#39;horloge mécanique.">CMechClock::AfficherInfos</a>. <ul>
+<li>
+Référez - vous aux commentaires du code. </li>
+</ul>
+</li>
+<li>
+Compilez et testez. Vous devriez pouvoir voir les informations détaillées des horloges mécaniques en haut au milieu de la fenêtre graphique. </li>
+</ul>
+<h3><a class="anchor" id="sec1_3_3"></a>
+1.3.3 Retendre le ressort de l’horloge mécanique</h3>
+<ul>
+<li>
+Dans la méthode <a class="el" href="class_c_t_p.html#ad4550e4ee062cae693dbb8d2c9fc3b77" title="Restore l&#39;énergie du ressort de l&#39;horloge mécanique sélectionnée.">CTP::TightenSpring</a>, déterminez si l’horloge sélectionnée (donnée membre <a class="el" href="class_c_t_p.html#a9c1807f92780101b830c8259f5ab5294" title="L&#39;horloge sélectionnée sur le mur.">CTP::m_pSelectedClock</a>) est une horloge mécanique : <ul>
+<li>
+Si oui, alors continuer l'exécution de la fonction en retendant le ressort de l’horloge. </li>
+<li>
+Si non, alors sortir de la fonction. <ul>
+<li>
+Normalement, à cette étape, l'appuie sur la touche ‘<code>R’</code> doit remonter l'horloge.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3><a class="anchor" id="sec1_3_4"></a>
+1.3.4 Arrêt des horloges mécaniques quand leur ressort est détendu</h3>
+<ul>
+<li>
+En utilisant le principe du polymorphisme, faites en sorte que les horloges mécaniques cessent de fonctionner lorsque le ressort est totalement détendu. Utilisez pour cela le membre CMechClock::m_nSpringTension </li>
+</ul>
+<h1><a class="anchor" id="sec2"></a>
+Exercice 2 Remettez votre travail sur le cours en ligne</h1>
+<dl class="section note"><dt>Note</dt><dd>Il est important de savoir diffuser ses codes sources. Tout fichier qui peut être régénéré ne doit <b>JAMAIS</b> être diffusé. Supprimer ces fichiers permet de passer votre code source de plusieurs méga octets à seulement quelques kilo octets.</dd></dl>
+<ul>
+<li>
+Vous remettrez sur l’ENT une archive compressée contenant toute votre solution Visual Studio. Avant de créer l’archive, <b>quittez Visual Studio</b>, et <b>supprimez</b> les fichiers inutiles.</li>
+</ul>
+<dl class="section warning"><dt>Avertissement</dt><dd>La présence de l’un ou l’autre de ces fichiers dans votre archive entrainera une perte de points. </dd>
+<dd>
+La suppression de trop de fichiers (absence de la solution, absence d’un fichier source, etc...) entrainera une perte de points. </dd>
+<dd>
+La copie sur un de vos camarades entrainera un 0 pour vous et votre camarade. <small>(J’ai des outils très puissants pour déterminer s’il y a eu copie.)</small> </dd>
+<dd>
+La copie sur internet entrainera un 0 car de toute façon, il n’y a pas la solution sur internet. </dd></dl>
+</div></div><!-- PageDoc -->
+<a href="doxygen_crawl.html"/>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Généré le Lundi 6 Mai 2024 11:19:21 pour TP 20 - Contrôle - Polymorphisme par <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

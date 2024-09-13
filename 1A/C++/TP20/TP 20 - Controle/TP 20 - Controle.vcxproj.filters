@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Fichier de génération d%27aide">
+      <UniqueIdentifier>{a05cc665-c214-4ca1-968e-35b8b535127d}</UniqueIdentifier>
+      <Extensions>dox</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Doxyfile.dox">
+      <Filter>Fichier de génération d%27aide</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="incLibGraph2.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TP.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="vecteur2D.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Clock.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoClock.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MechClock.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prog.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TP.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vecteur2D.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoClock.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MechClock.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="AutoClock-0.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-1.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-2.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-3.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-4.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-5.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-6.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-7.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-8.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-9.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-bg.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-LED.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock-tick.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="AutoClock.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock-bg.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock-fg.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock-hour.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock-min.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock-sec.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="MechClock.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="wall.png">
+      <Filter>Fichiers de ressources</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

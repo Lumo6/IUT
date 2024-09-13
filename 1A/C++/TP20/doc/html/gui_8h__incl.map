@@ -1,0 +1,13 @@
+<map id="gui.h" name="gui.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CGUI." alt="" coords="96,5,146,32"/>
+<area shape="rect" id="Node000002" href="$inc_lib_graph2_8h.html" title="Fichier d&#39;inclusion de la bibliothèque LibGraph2." alt="" coords="5,80,114,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,34,82,70,78,66,108,31"/>
+<area shape="rect" id="Node000004" href="$vecteur2_d_8h.html" title="Déclaration de la classe CVecteur2D." alt="" coords="138,80,227,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="134,31,164,66,160,70,129,34"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="14,155,105,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="62,107,62,139,57,139,57,107"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="142,155,196,181"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="182,108,177,140,171,139,177,107"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="220,155,291,181"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="197,105,234,142,230,145,193,109"/>
+</map>

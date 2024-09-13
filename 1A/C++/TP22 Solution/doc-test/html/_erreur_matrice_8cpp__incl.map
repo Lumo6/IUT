@@ -1,0 +1,25 @@
+<map id="ErreurMatrice.cpp" name="ErreurMatrice.cpp">
+<area shape="rect" id="Node000001" title="Définition de la classe CErreurMatrice." alt="" coords="460,5,584,32"/>
+<area shape="rect" id="Node000002" href="$_std_afx_8h.html" title="Fichier de gestion des en&#45;têtes précompilées." alt="" coords="345,80,416,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="499,35,420,75,418,70,496,30"/>
+<area shape="rect" id="Node000010" href="$_erreur_matrice_8h.html" title="Déclaration de la classe CErreurMatrice." alt="" coords="656,80,767,107"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="556,30,665,71,663,76,554,35"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,155,87,181"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="345,105,102,157,101,152,344,100"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="111,155,189,181"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="345,108,205,152,203,147,344,103"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="213,155,276,181"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="358,110,283,149,281,145,356,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="300,155,368,181"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="375,109,352,143,348,140,370,106"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="392,155,463,181"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="391,106,413,140,409,143,387,109"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="486,155,566,181"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="407,105,488,145,486,150,405,110"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="590,155,651,181"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="417,103,576,150,574,155,416,108"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="676,155,747,181"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="714,107,714,139,709,139,709,107"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="771,155,825,181"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="728,105,773,143,770,147,725,109"/>
+</map>

@@ -1,0 +1,43 @@
+<map id="vecteur2D.h" name="vecteur2D.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe CVecteur2D." alt="" coords="393,5,483,32"/>
+<area shape="rect" id="Node000002" href="$_clock_8h.html" title="Déclaration de la classe CClock." alt="" coords="333,155,399,181"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="424,47,404,81,373,155,368,153,399,79,419,44"/>
+<area shape="rect" id="Node000005" href="$_t_p_8h.html" title="Déclaration de la classe CTP." alt="" coords="12,304,61,331"/>
+<area shape="poly" id="edge19_Node000001_Node000005" title=" " alt="" coords="390,40,276,88,210,121,146,157,93,188,74,204,55,231,47,249,42,269,39,304,34,304,36,268,42,248,50,228,70,201,90,183,143,152,207,116,274,84,388,35"/>
+<area shape="rect" id="Node000007" href="$prog_8cpp.html" title="Programme principal." alt="" coords="332,379,403,405"/>
+<area shape="poly" id="edge25_Node000001_Node000007" title=" " alt="" coords="498,24,563,39,597,50,629,65,658,83,682,106,697,134,703,166,703,244,702,293,694,313,677,333,656,346,627,357,552,373,471,385,404,391,403,386,471,379,551,368,626,352,654,341,673,329,689,310,696,292,698,244,698,167,692,136,678,109,655,87,627,69,595,55,561,44,497,30"/>
+<area shape="rect" id="Node000014" href="$gui_8h.html" title="Déclaration de la classe CGUI." alt="" coords="413,80,463,107"/>
+<area shape="poly" id="edge20_Node000001_Node000014" title=" " alt="" coords="441,48,441,80,435,80,435,48"/>
+<area shape="rect" id="Node000015" href="$vecteur2_d_8cpp.html" title="Définition de la classe CVecteur2D." alt="" coords="738,80,842,107"/>
+<area shape="poly" id="edge26_Node000001_Node000015" title=" " alt="" coords="499,30,738,79,737,84,498,35"/>
+<area shape="rect" id="Node000003" href="$_auto_clock_8h.html" title="Déclaration de la classe CAutoClock." alt="" coords="193,229,285,256"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="332,192,263,231,260,226,330,187"/>
+<area shape="rect" id="Node000009" href="$_clock_8cpp.html" title="Définition de la classe CClock." alt="" coords="90,229,170,256"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="319,186,171,232,169,227,317,181"/>
+<area shape="rect" id="Node000010" href="$_mech_clock_8h.html" title="Déclaration de la classe CMechClock." alt="" coords="309,229,407,256"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="365,197,362,229,357,229,360,196"/>
+<area shape="rect" id="Node000012" href="$_wall_8h.html" title="Déclaration de la classe CWall." alt="" coords="482,229,540,256"/>
+<area shape="poly" id="edge15_Node000002_Node000012" title=" " alt="" coords="406,186,487,226,484,231,403,191"/>
+<area shape="rect" id="Node000004" href="$_auto_clock_8cpp.html" title="Définition de la classe CAutoClock." alt="" coords="85,304,191,331"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="211,268,157,306,154,301,208,263"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="191,264,62,310,60,305,189,259"/>
+<area shape="poly" id="edge8_Node000003_Node000007" title=" " alt="" coords="240,271,244,301,256,329,272,346,291,360,332,379,330,383,289,365,268,350,252,332,239,302,235,272"/>
+<area shape="rect" id="Node000008" href="$gui_8cpp.html" title="Définition de la classe CGUI." alt="" coords="266,304,330,331"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="261,267,290,302,286,305,257,270"/>
+<area shape="rect" id="Node000006" href="$_t_p_8cpp.html" title="Définition de la classe CTP." alt="" coords="5,379,68,405"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="39,346,39,378,34,378,34,346"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="76,329,221,362,331,382,331,387,220,367,75,334"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="294,260,73,307,62,310,60,305,72,301,293,254"/>
+<area shape="poly" id="edge14_Node000010_Node000007" title=" " alt="" coords="362,271,369,378,364,378,357,272"/>
+<area shape="poly" id="edge13_Node000010_Node000008" title=" " alt="" coords="340,270,310,305,306,302,336,266"/>
+<area shape="rect" id="Node000011" href="$_mech_clock_8cpp.html" title="Définition de la classe CMechClock." alt="" coords="405,304,516,331"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="390,263,444,301,441,306,387,268"/>
+<area shape="poly" id="edge16_Node000012_Node000005" title=" " alt="" coords="468,252,73,307,62,310,60,305,72,301,467,247"/>
+<area shape="poly" id="edge18_Node000012_Node000007" title=" " alt="" coords="528,269,538,300,537,317,531,332,504,358,471,376,436,386,404,391,403,386,434,381,469,371,501,354,526,329,532,316,532,301,523,270"/>
+<area shape="rect" id="Node000013" href="$_wall_8cpp.html" title="Définition de la classe CWall." alt="" coords="591,304,663,331"/>
+<area shape="poly" id="edge17_Node000012_Node000013" title=" " alt="" coords="546,262,608,301,605,306,543,267"/>
+<area shape="poly" id="edge21_Node000014_Node000002" title=" " alt="" coords="416,120,380,156,376,152,413,116"/>
+<area shape="poly" id="edge22_Node000014_Node000005" title=" " alt="" coords="398,102,331,115,247,139,202,156,158,177,117,202,80,231,65,248,54,268,42,304,37,303,50,266,61,245,76,227,114,197,156,172,200,151,245,134,330,110,397,97"/>
+<area shape="poly" id="edge24_Node000014_Node000008" title=" " alt="" coords="445,122,447,152,445,187,438,224,421,258,402,278,378,293,331,312,329,307,376,289,399,274,417,254,433,222,440,187,441,152,439,122"/>
+<area shape="poly" id="edge23_Node000014_Node000012" title=" " alt="" coords="453,119,507,228,503,230,448,122"/>
+</map>

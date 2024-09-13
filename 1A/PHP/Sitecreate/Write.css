@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+#form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form h1 {
+    color: #00b894; /* Titre en vert */
+}
+
+#form form div {
+    margin-bottom: 15px;
+}
+
+#form form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #00b894; /* Couleur du texte pour les labels */
+}
+
+#form form input[type="text"],
+#form form input[type="email"] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #00b894; /* Couleur de la bordure */
+    border-radius: 5px;
+}
+
+#form form .button {
+    text-align: center;
+}
+
+#form form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00b894; /* Couleur du bouton */
+    color: #ffffff; /* Couleur du texte du bouton */
+    cursor: pointer;
+}
+
+#form form input[type="submit"]:hover {
+    background-color: #018d6e; /* Couleur du bouton au survol */
+}

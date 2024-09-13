@@ -1,4 +1,0 @@
-﻿  PetriDish.cpp
-C:\Users\lucky\Desktop\Etude\1A\C++\TP17bis\VEtudiant\TP17bis\PetriDish.cpp(134,5): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
-C:\Users\lucky\Desktop\Etude\1A\C++\TP17bis\VEtudiant\TP17bis\PetriDish.cpp(135,9): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
-  TP17bis.vcxproj -> C:\Users\lucky\Desktop\Etude\1A\C++\TP17bis\VEtudiant\x64\Debug\TP17bis.exe

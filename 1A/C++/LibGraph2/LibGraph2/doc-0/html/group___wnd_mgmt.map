@@ -1,0 +1,6 @@
+<map id="Gestion des fenêtres" name="Gestion des fenêtres">
+<area shape="rect" id="node1" href="$group___con_management.html" title="Contient toutes les fonctionnalités de gestion de la console." alt="" coords="205,5,353,31"/>
+<area shape="rect" id="node2" href="$group___event_management.html" title="Contient toutes les fonctionnalités de gestion des événements systèmes." alt="" coords="196,55,361,80"/>
+<area shape="rect" id="node3" href="$group___wnd_management.html" title="Contient toutes les fonctionnalités de gestion des fenêtres graphiques." alt="" coords="207,105,350,145"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,55,148,80"/>
+</map>
